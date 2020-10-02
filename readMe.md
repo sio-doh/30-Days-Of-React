@@ -2,7 +2,15 @@
 <img align="right" width="100%"  src="./images/30_days_of_react.jpg" />
 </div>
 
+<<<<<<< HEAD
 <div align="center">
+=======
+| # Day |                                                                Topics                                                                 |
+| ----- | :-----------------------------------------------------------------------------------------------------------------------------------: |
+| 01    | [Introduction](#introduction)<br> [Requirements](#requirements)<br> [Setup](#setup)<br> [JavaScript Refresher](#javascript-refresher) |
+| 02    |                          [Getting Started React](./02_Day_Introduction_to_React/02_introduction_to_react.md)                          |
+| 02    |                                            [Setting Up](./03_Setting_Up/03_Setting_Up.md)                                             |
+>>>>>>> b6cea7b (content added to day 1)
 
   <h1> 30 Days Of React</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
@@ -4883,11 +4891,15 @@ So do not directly manipulate the DOM if you are using react. The only place we 
 
 Check out there result on [codepen](https://codepen.io/Asabeneh/full/vYGqQxP)
 
+<<<<<<< HEAD
 🌕 You are amazing! You have just completed day 1 challenge and you are on your way to greatness. Now you are a JavaScript Ninja and ready to dive into React.
 >>>>>>> f28476d (some fixes)
 =======
 Congratulations! You have completed the setup you need to get started with React, but before we dive into React let's do a JavaScript refresher. If you are very comfortable with JavaScript you may skip day 1 JavaScript refresher. The JavaScript refresher section is vast and it may take more than one day. From my experience people usually get stuck in React because their JavaScript knowledge is very shallow therefore to fill that gap all the necessary JavaScript features which can be used in React are covered in the JavaScript refresher section. There are many exercises but you are not required to solve them. Click [here](../30-Days-Of-React/02_Day_Introduction_to_React/02_introduction_to_react.md) if you want skip JavaScript and jump directly into React.
 >>>>>>> 7264e78 (some changes)
+=======
+🌕 You are amazing! You have just completed day 1 challenge and you are on your way to greatness. Now you are a JavaScript Ninja and ready to dive in to React.
+>>>>>>> b6cea7b (content added to day 1)
 
 🎉 CONGRATULATIONS ! 🎉
 
