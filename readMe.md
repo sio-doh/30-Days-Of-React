@@ -9,8 +9,12 @@
 | ----- | :-----------------------------------------------------------------------------------------------------------------------------------: |
 | 01    | [Introduction](#introduction)<br> [Requirements](#requirements)<br> [Setup](#setup)<br> [JavaScript Refresher](#javascript-refresher) |
 | 02    |                          [Getting Started React](./02_Day_Introduction_to_React/02_introduction_to_react.md)                          |
+<<<<<<< HEAD
 | 02    |                                            [Setting Up](./03_Setting_Up/03_Setting_Up.md)                                             |
 >>>>>>> b6cea7b (content added to day 1)
+=======
+| 02    |                                            [Setting Up](./03_Setting_Up/03_setting_up.md)                                             |
+>>>>>>> de90f42 (content added to day 2)
 
   <h1> 30 Days Of React</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">

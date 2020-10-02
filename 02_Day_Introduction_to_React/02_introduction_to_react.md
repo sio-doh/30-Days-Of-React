@@ -42,11 +42,19 @@
     - [Rendering JSX Element](#rendering-jsx-element)
 >>>>>>> 82482b4 (minor changes)
     - [Style and className in JSX](#style-and-classname-in-jsx)
+<<<<<<< HEAD
     - [Injecting data to a JSX Element](#injecting-data-to-a-jsx-element)
       - [Injecting a string to a JSX Element](#injecting-a-string-to-a-jsx-element)
       - [Injecting a number to a JSX Element](#injecting-a-number-to-a-jsx-element)
       - [Injecting an array to a JSX Element](#injecting-an-array-to-a-jsx-element)
       - [Injecting an object to a JSX Element](#injecting-an-object-to-a-jsx-element)
+=======
+    - [Injecting data to JSX Element](#injecting-data-to-jsx-element)
+      - [Injecting a string to JSX Element](#injecting-a-string-to-jsx-element)
+    - [Injecting a number to JSX Element](#injecting-a-number-to-jsx-element)
+      - [Injecting an array to JSX Element](#injecting-an-array-to-jsx-element)
+      - [Injecting an object to JSX Element](#injecting-an-object-to-jsx-element)
+>>>>>>> de90f42 (content added to day 2)
   - [Exercises](#exercises)
     - [Exercises: What is React?](#exercises-what-is-react)
     - [Exercises: Why React?](#exercises-why-react)
@@ -59,11 +67,14 @@
     - [Exercises: Inline Style](#exercises-inline-style)
     - [Exercises: Internal Styles](#exercises-internal-styles)
     - [Exercise: Inject data to JSX](#exercise-inject-data-to-jsx)
+<<<<<<< HEAD
 =======
     - [Exercises: JSX Elements](#exercises-jsx-elements)
     - [Exercises: Inline Style](#exercises-inline-style)
     - [Exercises: Internal Styles](#exercises-internal-styles)
 >>>>>>> 980e794 (some fixes)
+=======
+>>>>>>> de90f42 (content added to day 2)
 
 ## Getting Started React
 
@@ -73,6 +84,7 @@ This section covers prerequisites to get started with React. You should have a g
 - CSS
 - JavaScript
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 If you have the above skills you will enjoy doing react.
@@ -86,6 +98,9 @@ If you have the skills mentioned above, you will enjoy doing React. The 30 Days 
 =======
 If you have the above skills you will enjoy doing React. React for Everyone contains anything you need to know about react. In every section, it has some exercises and mini-projects and it is recommended to work on them. This 30 Days Of React challenge will help you learn the latest version of React and the old version step by step. The topics are broken down into 30 days, where each day contains several topics with easy-to-understand explanations, real-world examples and many hands on exercises.
 >>>>>>> 980e794 (some fixes)
+=======
+If you have the above skills you will enjoy doing React. The 30 Days Of React challenge contains anything you need to know about react. In every section, it has some exercises and mini-projects and it is recommended to work on them. This 30 Days Of React challenge will help you learn the latest version of React and the old version step by step. The topics are broken down into 30 days, where each day contains several topics with easy-to-understand explanations, real-world examples and many hands on exercises.
+>>>>>>> de90f42 (content added to day 2)
 This challenge is designed for beginners and professionals who want to build a web application using React and JavaScript.
 
 ### 1. What is React?
@@ -1000,9 +1015,15 @@ Instead of style object using regular styling method is more easy than the one a
 
 ![Internal Style](../images/internal_style.png)
 
+<<<<<<< HEAD
 #### Injecting data to a JSX Element
 
 So far, we used static data on the JSX elements, but we can also pass different data types as a dynamic data. The dynamic data could be string, number, boolean, array or object. Let us see each of the data types step by step. To inject data to a JSX we use the {} bracket.
+=======
+#### Injecting data to JSX Element
+
+So far, we used static data on the JSX elements but we can also pass different data types as a dynamic data. The dynamic data could be string, number, boolean, array or object. Let us see each of the data types step by step. To inject data to a JSX we use the {} bracket.
+>>>>>>> de90f42 (content added to day 2)
 
 ```js
 const welcome = 'Welcome to 30 Days Of React'
@@ -1028,18 +1049,31 @@ const header = (
 )
 ```
 
+<<<<<<< HEAD
 Similar to the header JSX element, we can implement data injection to main and footer JSX elements.
 
 ##### Injecting a string to a JSX Element
 
 In this section we inject only strings
+=======
+Similar to the header JSX element we can implement to main and footer JSX element.
+
+##### Injecting a string to JSX Element
+
+In this section we only inject only strings
+>>>>>>> de90f42 (content added to day 2)
 
 ```js
 const welcome = 'Welcome to 30 Days Of React'
 const title = 'Getting Started React'
 const subtitle = 'JavaScript Library'
+<<<<<<< HEAD
 const firstName = 'Asabeneh'
 const lastName = 'Yetayeh'
+=======
+const authorFirstName = 'Asabeneh'
+const authorLastName = 'Yetayeh'
+>>>>>>> de90f42 (content added to day 2)
 const date = 'Oct 2, 2020'
 
 // JSX element, header
@@ -1052,7 +1086,11 @@ const header = (
       <h2>{title}</h2>
       <h3>{subtitle}</h3>
       <p>
+<<<<<<< HEAD
         Instructor: {firstName} {lastName}
+=======
+        Instructor: {authorFirstName} {authorLastName}
+>>>>>>> de90f42 (content added to day 2)
       </p>
       <small>Date: {date}</small>
     </div>
@@ -1060,7 +1098,11 @@ const header = (
 )
 ```
 
+<<<<<<< HEAD
 ##### Injecting a number to a JSX Element
+=======
+#### Injecting a number to JSX Element
+>>>>>>> de90f42 (content added to day 2)
 
 ```js
 const numOne = 3
@@ -1078,11 +1120,19 @@ const age = currentYear - yearBorn
 const personAge = <p> {age}</p>
 ```
 
+<<<<<<< HEAD
 As you can see in the example above, it is possible to do some arithmetic calculations and ternary operations.
 
 ##### Injecting an array to a JSX Element
 
 To give an example for an array, let us change the HTML, CSS, JavaScript to an array and inject it to the main JSX element below. We will cover more in much detail later, in rendering lists section.
+=======
+As you can see in the above example, it is possible to do some arithmetic calculation and ternary operations.
+
+##### Injecting an array to JSX Element
+
+To give example for an array, let us change the HTML, CSS, JavaScript an array and inject it to the main JSX element below. We will cover in much detail in rendering lists section.
+>>>>>>> de90f42 (content added to day 2)
 
 ```js
 const techs = ['HTML', 'CSS', 'JavaScript']
@@ -1104,11 +1154,19 @@ const main = (
 )
 ```
 
+<<<<<<< HEAD
 ##### Injecting an object to a JSX Element
 
 We can inject string, number, boolean, array data to JSX but we cannot directly inject an object. We should extract object values first or destructure the content of the object before we inject the data to the JSX element. For instance, let us write firstName and lastName inside an object and extract them to use them inside JSX.
 
 Now, let us put everything together. Here, in the example below, the data is injected dynamically to the JSX. [Live on code pen](https://codepen.io/Asabeneh/full/YzXWgpZ)
+=======
+##### Injecting an object to JSX Element
+
+We can inject string, number, boolean, array data to JSX but we can not directly inject object. We should extract object values first or destructure the content of the object before we inject to the JSX element. For instance, let us write firstName and lastName inside an object and extract them out to use them inside JSX.
+
+Now, let us put everything together. Here in the example below, the data is injected dynamically to the JSX. [Live on code pen](https://codepen.io/Asabeneh/full/YzXWgpZ)
+>>>>>>> de90f42 (content added to day 2)
 
 ```html
 <!DOCTYPE html>
@@ -1121,7 +1179,11 @@ Now, let us put everything together. Here, in the example below, the data is inj
       rel="stylesheet"
     />
 
+<<<<<<< HEAD
     <title>30 Days Of React Challenge</title>
+=======
+    <title>React For Everyone</title>
+>>>>>>> de90f42 (content added to day 2)
     <style>
       /* == General style === */
       * {
@@ -1169,11 +1231,20 @@ Now, let us put everything together. Here, in the example below, the data is inj
 
       header {
         background-color: #61dbfb;
+<<<<<<< HEAD
+=======
+        padding: 25;
+>>>>>>> de90f42 (content added to day 2)
         padding: 10px;
       }
 
       main {
+<<<<<<< HEAD
         padding: 10px 10px 60px;
+=======
+        padding: 10px;
+        padding-bottom: 60px;
+>>>>>>> de90f42 (content added to day 2)
         /* Height of the footer */
       }
 
@@ -1252,7 +1323,11 @@ Now, let us put everything together. Here, in the example below, the data is inj
       )
 
       const yearBorn = 1820
+<<<<<<< HEAD
       const currentYear = new Date().getFullYear()
+=======
+      const currentYear = 2020
+>>>>>>> de90f42 (content added to day 2)
       const age = currentYear - yearBorn
       const personAge = (
         <p>
@@ -1309,16 +1384,26 @@ Now, let us put everything together. Here, in the example below, the data is inj
 </html>
 ```
 
+<<<<<<< HEAD
 ![Dynamic Data](../images/dynamic_data.png)
 
 As you can see the lists are all in one line. Therefore, we should format the list the way we want, before we inject it to JSX. In order to format the list, we should modify the array before we will inject it to JSX. We can modify the array using _map_. As a react developer you should have a very good understanding of functional programming(map, filter, reduce, find, some, every). If you don't have good understanding of functional programming, check out day 1.
+=======
+![Dynamic Data](images/dynamic_data.png)
+
+As you can see the lists are all in one line. Therefore, we should format the list the way we want before we inject to JSX. In order to format the list we should modify the array before we will inject to JSX. We can modify the array using _map_. As a react developer you should have a very good understanding of functional programming(map, filter, reduce, find, some, every). If you don't have good understanding of functional programming check out day 1.
+>>>>>>> de90f42 (content added to day 2)
 
 ```js
 const techs = ['HTML', 'CSS', 'JavaScript']
 const techsFormatted = techs.map((tech) => <li>{tech}</li>)
 ```
 
+<<<<<<< HEAD
 In the following code example, the list is now containing list elements and it is formatted properly.
+=======
+In the following code example, the list is now containing list elements and formatted properly.
+>>>>>>> de90f42 (content added to day 2)
 
 ```html
 <!DOCTYPE html>
@@ -1331,7 +1416,11 @@ In the following code example, the list is now containing list elements and it i
       rel="stylesheet"
     />
 
+<<<<<<< HEAD
     <title>30 Days Of React Challenge</title>
+=======
+    <title>React For Everyone</title>
+>>>>>>> de90f42 (content added to day 2)
     <style>
       /* == General style === */
       * {
@@ -1379,11 +1468,20 @@ In the following code example, the list is now containing list elements and it i
 
       header {
         background-color: #61dbfb;
+<<<<<<< HEAD
+=======
+        padding: 25;
+>>>>>>> de90f42 (content added to day 2)
         padding: 10px;
       }
 
       main {
+<<<<<<< HEAD
         padding: 10px 10px 60px;
+=======
+        padding: 10px;
+        padding-bottom: 60px;
+>>>>>>> de90f42 (content added to day 2)
         /* Height of the footer */
       }
 
@@ -1520,10 +1618,17 @@ In the following code example, the list is now containing list elements and it i
 </html>
 ```
 
+<<<<<<< HEAD
 Rendering lists
 
 ![List Id](../images/map_list_id.png)
 As you can see above, now the lists are formatted properly, but there is a warning on the console, which says each list child should have a unique key. In the array, we do not have id, but it is common to pass id as a unique value, when you have id in your data. Now, let us just pass each item with a unique key to remove the warning.
+=======
+Rendering list
+
+![List Id](images/map_list_id.png)
+As you can see above, now the lists are formatted properly but there is warning on the console which says each list child should have a unique key. In the array, we do not have id but it is common to pass id as a unique value when you have id in your data. Now, let us just pass each items as a unique key and remove the warning.
+>>>>>>> de90f42 (content added to day 2)
 
 ```html
 <!DOCTYPE html>
@@ -1536,7 +1641,11 @@ As you can see above, now the lists are formatted properly, but there is a warni
       rel="stylesheet"
     />
 
+<<<<<<< HEAD
     <title>30 Days Of React Challenge</title>
+=======
+    <title>React For Everyone</title>
+>>>>>>> de90f42 (content added to day 2)
     <style>
       /* == General style === */
       * {
@@ -1584,6 +1693,10 @@ As you can see above, now the lists are formatted properly, but there is a warni
 
       header {
         background-color: #61dbfb;
+<<<<<<< HEAD
+=======
+        padding: 25;
+>>>>>>> de90f42 (content added to day 2)
         padding: 10px;
       }
 
@@ -1726,9 +1839,15 @@ As you can see above, now the lists are formatted properly, but there is a warni
 </html>
 ```
 
+<<<<<<< HEAD
 ![Removing the warning ](../images/removing_unique_id_warning.png)
 
 Now, you have a very good understanding of how to create JSX elements and also how to inject data to JSX. In the next section, we will talk about how to use create-react-app and components. Components are more powerful and useful than JSX.
+=======
+![Removing warning ](images/removing_unique_id_warning.png)
+
+Now, you have a very good understanding of how to create JSX element and also how to inject data to JSX. In the next section, we will talk about component which are more powerful and useful than JSX.
+>>>>>>> de90f42 (content added to day 2)
 
 🌕 You are awesome. You have just completed day 2 challenges and you are two steps ahead on your way to greatness. Now do some exercises for your brain and for your muscle.
 
