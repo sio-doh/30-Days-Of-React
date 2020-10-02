@@ -4892,6 +4892,7 @@ So do not directly manipulate the DOM if you are using react. The only place we 
 Check out there result on [codepen](https://codepen.io/Asabeneh/full/vYGqQxP)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 🌕 You are amazing! You have just completed day 1 challenge and you are on your way to greatness. Now you are a JavaScript Ninja and ready to dive into React.
 >>>>>>> f28476d (some fixes)
 =======
@@ -4900,6 +4901,9 @@ Congratulations! You have completed the setup you need to get started with React
 =======
 🌕 You are amazing! You have just completed day 1 challenge and you are on your way to greatness. Now you are a JavaScript Ninja and ready to dive in to React.
 >>>>>>> b6cea7b (content added to day 1)
+=======
+🌕 You are amazing! You have just completed day 1 challenge and you are on your way to greatness. Now you are a JavaScript Ninja and ready to dive into React.
+>>>>>>> 1ac573a (content added to day 1)
 
 🎉 CONGRATULATIONS ! 🎉
 
