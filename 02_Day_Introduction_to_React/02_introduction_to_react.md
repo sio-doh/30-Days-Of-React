@@ -219,7 +219,7 @@ This JSX element has only on HTML element which is _h1_.
 >>>>>>> 980e794 (some fixes)
 
 ```js
-const jsxElement = <h>I am a JSX element</h1> // JS with HTML
+const jsxElement = <h1>I am a JSX element</h1> // JS with HTML
 ```
 
 <<<<<<< HEAD

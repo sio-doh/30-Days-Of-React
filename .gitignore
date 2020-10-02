@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 draft.md
+<<<<<<< HEAD
 =======
 draft.md
 react-for-everyone.md
@@ -29,3 +30,7 @@ component.md
 11_Day_Forms
 
 >>>>>>> a15f9c0 (day_7)
+=======
+react-for-everyone.md
+component.md
+>>>>>>> 181dbb3 (minor fixes)
