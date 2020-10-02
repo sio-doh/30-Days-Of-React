@@ -34,8 +34,13 @@
     - [React vs Vue popularity in February 2020](#react-vs-vue-popularity-in-february-2020)
   - [3. JSX](#3-jsx)
     - [JSX Element](#jsx-element)
+<<<<<<< HEAD
     - [Commenting a JSX element](#commenting-a-jsx-element)
     - [Rendering a JSX Element](#rendering-a-jsx-element)
+=======
+    - [Commenting JSX element](#commenting-jsx-element)
+    - [Rendering JSX Element](#rendering-jsx-element)
+>>>>>>> 82482b4 (minor changes)
     - [Style and className in JSX](#style-and-classname-in-jsx)
     - [Injecting data to a JSX Element](#injecting-data-to-a-jsx-element)
       - [Injecting a string to a JSX Element](#injecting-a-string-to-a-jsx-element)
@@ -76,10 +81,14 @@ This challenge is designed for beginners and professionals who want to build a w
 ### 1. What is React?
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 React is a JavaScript library for building a reusable user interfaces(UI). It was initially released on May 29, 2013. The current version is 16.13.1 and somehow it is stable. React was created by Facebook. React makes creating UI components very easy.The official React documentation can be found [here](https://reactjs.org/docs/getting-started.html). When we work with react we do not interact directly with the DOM. React has its own way to handle the DOM(Document Object Model). React uses it virtual DOM to make a new change and it update only the element that needs change. Do not directly interact with DOM when you build react application leave that job for the virtual DOM. In this challenge, we will develop 10-15 web applications using React. A web application or a website is made up of buttons, links, forms with different input fields, header, footer, images, links, sections, articles, texts and boxes with different shapes. We use react to make a reusable UI component of a website.
 =======
 React is a JavaScript library for building a reusable user interface(UI). It was initially released on May 29, 2013. The current version is 16.13.1 and somehow it is stable. React was created by Facebook. React makes creating UI components very easy. The official React documentation can be found [here](https://reactjs.org/docs/getting-started.html). When we work with React we do not interact directly with the DOM. React has its own way to handle the DOM(Document Object Model) manipulation. React uses its virtual DOM to make new changes and it updates only the element, that needs changing. Do not directly interact with DOM when you build a React Application and leave the DOM manipulation job for the React virtual DOM. In this challenge, we will develop 10-15 web applications using React. A web application, or a website, is made of buttons, links, forms with different input fields, header, footer, sections, articles, texts, images, audios, videos and boxes with different shapes. We use react to make a reusable UI components of a website.
 >>>>>>> 18fa91b ('fixes')
+=======
+React is a JavaScript library for building a reusable user interfaces(UI). It was initially released on May 29, 2013. The current version is 16.13.1 and somehow it is stable. React was created by Facebook. React makes creating UI components very easy.The official React documentation can be found [here](https://reactjs.org/docs/getting-started.html). When we work with react we do not interact directly with the DOM. React has its own way to handle the DOM(Document Object Model). React uses it virtual DOM to make a new change and it update only the element that needs change. Do not directly interact with DOM when you build react application leave that job for the virtual DOM. In this challenge, we will develop 10-15 web applications using React. A web application or a website is made up of buttons, links, forms with different input fields, header, footer, images, links, sections, articles, texts and boxes with different shapes. We use react to make a reusable UI component of a website.
+>>>>>>> 82482b4 (minor changes)
 
 To summarize:
 
@@ -90,6 +99,7 @@ To summarize:
 - React allows us to create reusable UI components
 - React latest release is 16.13.1
 - [React versions](https://reactjs.org/versions/)
+<<<<<<< HEAD
 - React official documentation can be found [here](https://reactjs.org/docs/getting-started.html)
 
 ### 2. Why React?
@@ -99,6 +109,13 @@ React is one of the most popular JavaScript library. Many developers and compani
 =======
 React is one of the most popular JavaScript libraries. Many developers and companies have been using it for the last couple of years. Its popularity has been growing fast and it has a huge community. How do we measure popularity? One measure of popularity could be GitHub repository stars, watchers and forks. Let us compare the popularity of [React](https://github.com/facebook/react) and [Vue](https://github.com/vuejs/vue). As of today, the popularity between the two most popular JavaScript looks like as shown on the diagram. From the diagram, you can speculate the most popular JavaScript library. You may look at the number of watchers, stars and forks for both React and Vue. These alone will not be a very good measure of popularity, but still it tells a little bit about the popularity of the two technologies. If I have to recommend another JavaScript library next to React, it would be Vue.js.
 >>>>>>> 18fa91b ('fixes')
+=======
+- React official documentation can be found [her](https://reactjs.org/docs/getting-started.html)
+
+### 2. Why React?
+
+React is one of the most popular JavaScript library. Many developers and companies have been using it for the last couple of years. Its popularity has been growing fast and it has a huge community. How do we measure popularity? One measure of popularity could be GitHub repository stars, watchers and fork.Let us compare the popularity of [React](https://github.com/facebook/react) and [Vue](https://github.com/vuejs/vue). As of today, the popularity between the two most popular JavaScript looks like as follows. From the diagram, you can speculate the most popular JavaScript library. You may look at the number of watchers, stars and forks for both React and Vue. These alone will not be a very good measure of popularity but still it tells something. If I have to recommend another JavaScript library next to React would Vue.js.
+>>>>>>> 82482b4 (minor changes)
 
 #### React vs Vue popularity in October 2020
 
@@ -136,7 +153,10 @@ JSX stands for JavaScript XML. JSX allows us to write HTML elements with JavaScr
 ```js
 // JSX syntax
 // we don't need to use string when we use JSX
+<<<<<<< HEAD
 // we don't need to use quotes with JSX
+=======
+>>>>>>> 82482b4 (minor changes)
 
 const jsxElement = <h1>I am a JSX element</h1>
 const welcome = <h1>Welcome to 30 Days of React Challenge</h1>
@@ -172,16 +192,24 @@ const jsxElement = <h1>I am a JSX element</h1> // JS with HTML
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Let's make more JSX elements by declaring new variables name title, message and its content inside h1.
 =======
 Let's make more JSX elements by declaring a new variable named title and content inside _h2_.
 >>>>>>> 18fa91b ('fixes')
+=======
+Let's make more JSX elements by declaring new variables name title, message and its content inside h1.
+>>>>>>> 82482b4 (minor changes)
 
 ```js
 const title = <h1>Getting Started React</h1>
 ```
 
+<<<<<<< HEAD
 Let us add a subtitles and other contents to this JSX element by adding additional HTML elements. Every HTML element should be wrapped by an outer HTML element to create a valid JSX element. The name title variable also should be changed to header because our JSX element is containing almost all of the header of the application.
+=======
+Let us add a subtitle and other contents to the above JSX element by adding additional HTML elements. Every HTML element should be wrapped by an outer HTML element to create a valid JSX element. The name title variable also should be changed to header because our JSX element is containing almost all the header of the application.
+>>>>>>> 82482b4 (minor changes)
 
 ```js
 const header = (
@@ -209,7 +237,30 @@ const header = (
 
 As you can see the header element is a parent element for all the inner HTML elements and JSX must be wrapped by an outer parent element. Without the header HTML element or other parent HTML element the above JSX is invalid.
 
+<<<<<<< HEAD
 #### Commenting a JSX element
+=======
+#### Commenting JSX element
+
+We comment codes for different reasons and it is also go to know how to comment out JSX element in React.
+
+```js
+{
+  /*
+ <header>
+    <h1>Welcome to 30 Days Of React</h1>
+    <h1>Getting Started React</h1>
+    <h2>JavaScript Library</h2>
+    <h3>Asabeneh Yetayeh</h3>
+    <small>Oct 1, 2020</small>
+  </header>
+
+*/
+}
+```
+
+#### Rendering JSX Element
+>>>>>>> 82482b4 (minor changes)
 
 We comment codes for different reasons and it is also good to know how to comment out JSX elements in React.
 
@@ -280,10 +331,14 @@ As you can see from the above index.html, we have one div with a class root and 
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 The babel library is linked to our document and now we can make use of it. The next step is importing React and ReactDOM using CDN or link. Attach the react and react-dom to your file. To test if react is connected to the index.html try to check by doing console.log(React). Open the browser console and you should get an object. If you see an object containing react methods then you managed to link your project with React CND.
 =======
 The babel library is linked to our document and now we can make use of it. The next step is importing _React_ and _ReactDOM_ using CDN or link. In order to link React and ReactDOM, we attach both packages from CDN to the body of index.html. To test if React is linked to the index.html, try to check it by doing console.log(React). Open the browser console and you should get an object. If you see an object containing React methods then you managed to link your project with React CDN and you are ready to use React.
 >>>>>>> 18fa91b ('fixes')
+=======
+The babel library is linked to our document and now we can make use of it. The next step is importing React and ReactDOM using CDN or link. Attach the react and react-dom to your file. To test if react is connected to the index.html try to check by doing console.log(React). Open the browser console and you should get an object. If you see an object containing react methods then you managed to link your project with React CND.
+>>>>>>> 82482b4 (minor changes)
 
 ```html
 <!DOCTYPE html>
@@ -356,10 +411,14 @@ Now, you knew JSX and JSX element. Let us render the JSX element on the browser,
 ![Rendering JSX](../images/rendering_jsx.png)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Let us render more content. To render more content the JSX element should have more HTML elements. For instance, we can create a header of a website and header may have a title, subtitle, author or date etc. We can render only one on JSX element at a time.
 =======
 Let us render more content. To render more content, the JSX element should have more HTML elements. For instance, we can create a header of a website and header may have a title, subtitle, author or date etc. Remember, we can render only one JSX element at a time.
 >>>>>>> 18fa91b ('fixes')
+=======
+Let us render more content. To render more content the JSX element should have more HTML elements. For instance, we can create a header of a website and header may have a title, subtitle, author or date etc. We can render only one on JSX element at a time.
+>>>>>>> 82482b4 (minor changes)
 [Live on code pen](https://codepen.io/Asabeneh/full/QWbGWeY).
 
 ```html
