@@ -300,10 +300,14 @@ This is how we write an internal script most of the time. Writing the JavaScript
 Open the browser console to see the output from the console.log()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ![js code from vscode](../images/js_code_vscode.png)
 =======
 ![js code from vscode](./images/js_code_vscode.png)
 >>>>>>> dba5f33 (docs: add how to use repo and move js to day1 folder)
+=======
+![js code from vscode](../images/js_code_vscode.png)
+>>>>>>> 870ee2c (Minor images path fix)
 
 #### External Script
 
@@ -370,10 +374,14 @@ console.log('Hello, World!')
 _Your main.js file should be below all other scripts_. It is very important to remember this.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ![Multiple Script](../images/multiple_script.png)
 =======
 ![Multiple Script](./images/multiple_script.png)
 >>>>>>> dba5f33 (docs: add how to use repo and move js to day1 folder)
+=======
+![Multiple Script](../images/multiple_script.png)
+>>>>>>> 870ee2c (Minor images path fix)
 
 ### 1. Variables
 
@@ -510,10 +518,14 @@ console.log(words)
 We access each element in an array using their index. An array index starts from 0. The picture below clearly shows the index of each element in the array.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ![arr index](../images/array_index.png)
 =======
 ![arr index](./images/array_index.png)
 >>>>>>> dba5f33 (docs: add how to use repo and move js to day1 folder)
+=======
+![arr index](../images/array_index.png)
+>>>>>>> 870ee2c (Minor images path fix)
 
 ```js
 const fruits = ['banana', 'orange', 'mango', 'lemon']
