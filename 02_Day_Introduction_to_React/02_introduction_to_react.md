@@ -116,6 +116,7 @@ JSX stands for JavaScript XML. JSX allows us to write HTML elements with JavaScr
 ```js
 // JSX syntax
 // we don't need to use string when we use JSX
+// we don't need to use quotes with JSX
 
 const jsxElement = <h1>I am a JSX element</h1>
 const welcome = <h1>Welcome to 30 Days of React Challenge</h1>
@@ -190,6 +191,7 @@ We comment codes for different reasons and it is also go to know how to comment 
 #### Rendering JSX Element
 
 To render a JSX element to HTML document. We should create on index HTML. The index.html is the only HTML file you will have in any react application. That is why every react application is a single page application. Let us create an index.html file.
+To render a JSX element to HTML document, we should first create an index HTML. The index.html is the only HTML file you will have in any React Application. That is why we call that every React Application is a single page application. Let us create an index.html file. We can get started React in two ways either using CDN or create-react-app. The create-react-app create a React project boilerplate outbox and because of that many people do have a hard time understand how react works. In order to make things clear for absolute beginners I would like to start with a CDN. We use CDN only in this section and we will use the create-reap-app in the rest of the challenge and I also recommend you to use only create-react-app all the time.
 
 ```html
 <!DOCTYPE html>
@@ -664,7 +666,7 @@ Instead of style object using regular styling method is more easier than the abo
       rel="stylesheet"
     />
 
-    <title>React For Everyone</title>
+    <title>30 Days Of React Challenge</title>
     <style>
       /* == General style === */
       * {
@@ -944,7 +946,7 @@ Now, let us put everything together. Here in the example below, the data is inje
       rel="stylesheet"
     />
 
-    <title>React For Everyone</title>
+    <title>30 Days Of React Challenge</title>
     <style>
       /* == General style === */
       * {
@@ -1077,7 +1079,7 @@ Now, let us put everything together. Here in the example below, the data is inje
       )
 
       const yearBorn = 1820
-      const currentYear = 2020
+      const currentYear = new Date().getFullYear()
       const age = currentYear - yearBorn
       const personAge = (
         <p>
@@ -1156,7 +1158,7 @@ In the following code example, the list is now containing list elements and form
       rel="stylesheet"
     />
 
-    <title>React For Everyone</title>
+    <title>30 Days Of React Challenge</title>
     <style>
       /* == General style === */
       * {
@@ -1363,7 +1365,7 @@ As you can see above, now the lists are formatted properly but there is warning 
       rel="stylesheet"
     />
 
-    <title>React For Everyone</title>
+    <title>30 Days Of React Challenge</title>
     <style>
       /* == General style === */
       * {
@@ -1556,7 +1558,7 @@ As you can see above, now the lists are formatted properly but there is warning 
 
 ![Removing warning ](../images/removing_unique_id_warning.png)
 
-Now, you have a very good understanding of how to create JSX element and also how to inject data to JSX. In the next section, we will talk about component which are more powerful and useful than JSX.
+Now, you have a very good understanding of how to create JSX element and also how to inject data to JSX. In the next section, we will talk about how to use create-react-app and component. Components are more powerful and useful than JSX.
 
 🌕 You are awesome. You have just completed day 2 challenges and you are two steps ahead on your way to greatness. Now do some exercises for your brain and for your muscle.
 
