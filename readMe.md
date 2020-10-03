@@ -18,12 +18,14 @@
 
 </div>
 
-| # Day |                                                                Topics                                                        |
-| ----- | :--------------------------------------------------------------------------------------------------------------------------: |
-| 00    | [Introduction](#introduction)<br> [How to Use Repo](#how-to-use-repo)<br> [Requirements](#requirements)<br> [Setup](#setup)  |
-| 01    |                       [JavaScript Refresher](./01_Day_JavaScript_Refresher/01_javascript_refresher.md)                       |
-| 02    |                      [Getting Started React](./02_Day_Introduction_to_React/02_introduction_to_react.md)                     |
-| 03    |                                    [Setting Up](./03_Day_Setting_Up/03_day_setting_up.md)                                    |
+[Day 1 >>](./01_Day_JavaScript_Refresher/01_javascript_refresher.md)
+
+| # Day |                                                           Topics                                                            |
+| ----- | :-------------------------------------------------------------------------------------------------------------------------: |
+| 00    | [Introduction](#introduction)<br> [How to Use Repo](#how-to-use-repo)<br> [Requirements](#requirements)<br> [Setup](#setup) |
+| 01    |                      [JavaScript Refresher](./01_Day_JavaScript_Refresher/01_javascript_refresher.md)                       |
+| 02    |                     [Getting Started React](./02_Day_Introduction_to_React/02_introduction_to_react.md)                     |
+| 03    |                                   [Setting Up](./03_Day_Setting_Up/03_day_setting_up.md)                                    |
 
 🧡🧡🧡 HAPPY CODING 🧡🧡🧡<div>
 <small>Support [**Asabeneh**](https://www.patreon.com/asabeneh?fan_landing=true) to create more educational materials</small>  
@@ -31,16 +33,16 @@
 
 </div>
 
-___
+---
 
 - [Introduction](#introduction)
 - [Requirements](#requirements)
 - [How to Use Repo](#how-to-use-repo)
   - [Star and Fork this Repo](#star-and-fork-this-repo)
-  - [Clone your fork](#clone-your-fork)
+  - [Clone your Fork](#clone-your-fork)
   - [Create a New Branch](#create-a-new-branch)
   - [Structure Exercise Solutions](#structure-exercise-solutions)
-  - [Commit Exercise Solutions](#commit-exercise-solutions)
+  - [Commit Excercise Solutions](#commit-excercise-solutions)
   - [Update your Fork Daily](#update-your-fork-daily)
 - [Setup](#setup)
   - [Install Node.js](#install-nodejs)
@@ -198,6 +200,7 @@ ___
     - [Exercises Level 2](#exercises-level-2-3)
     - [Exercises Level 3](#exercises-level-3-3)
 
+<<<<<<< HEAD
 <div align="center">
   <h1> 30 Days Of React</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
@@ -206,6 +209,9 @@ ___
   <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
+=======
+---
+>>>>>>> 746b724 (minor fixes)
 
 <sub>Author:
 <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
