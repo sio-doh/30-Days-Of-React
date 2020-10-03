@@ -1,25 +1,37 @@
 <div align="center">
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> dba5f33 (docs: add how to use repo and move js to day1 folder)
+=======
+
+>>>>>>> 63842ed (minor fixes)
   <h1> 30 Days Of React: JavaScript Refresher</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
     <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> dba5f33 (docs: add how to use repo and move js to day1 folder)
+=======
+
+>>>>>>> 63842ed (minor fixes)
   <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
     <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 63842ed (minor fixes)
 <sub>Author:
 <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
 <small> October, 2020</small>
 </sub>
+<<<<<<< HEAD
 
 =======
   <sub>
@@ -27,7 +39,10 @@
     <small> October, 2020</small>
   </sub>
 >>>>>>> dba5f33 (docs: add how to use repo and move js to day1 folder)
+=======
+>>>>>>> 63842ed (minor fixes)
 </div>
+
 
 [<< Day 0](../readMe.md) | [Day 2 >>](../02_Day_Introduction_to_React/02_introduction_to_react.md)
 
@@ -35,10 +50,14 @@
 
 - [JavaScript Refresher](#javascript-refresher)
 <<<<<<< HEAD
+<<<<<<< HEAD
   - [0. Adding JavaScript to a Web Page](#0-adding-javascript-to-a-web-page)
 =======
   - [0. Adding JavaScript to a Web Page](#adding-javascript-to-a-web-page)
 >>>>>>> dba5f33 (docs: add how to use repo and move js to day1 folder)
+=======
+  - [0. Adding JavaScript to a Web Page](#0-adding-javascript-to-a-web-page)
+>>>>>>> 63842ed (minor fixes)
     - [Inline Script](#inline-script)
     - [Internal Script](#internal-script)
     - [External Script](#external-script)
@@ -71,10 +90,14 @@
       - [Sorting elements in array](#sorting-elements-in-array)
     - [Array of arrays](#array-of-arrays)
 <<<<<<< HEAD
+<<<<<<< HEAD
   - [💻 Exercise](#-exercise)
 =======
     - [💻 Exercise](#-exercise)
 >>>>>>> dba5f33 (docs: add how to use repo and move js to day1 folder)
+=======
+  - [💻 Exercise](#-exercise)
+>>>>>>> 63842ed (minor fixes)
       - [Exercise: Level 1](#exercise-level-1)
       - [Exercise: Level 2](#exercise-level-2)
       - [Exercise: Level 3](#exercise-level-3)
@@ -85,10 +108,14 @@
     - [Switch](#switch)
     - [Ternary Operators](#ternary-operators)
 <<<<<<< HEAD
+<<<<<<< HEAD
   - [💻 Exercises](#-exercises)
 =======
     - [💻 Exercises](#-exercises)
 >>>>>>> dba5f33 (docs: add how to use repo and move js to day1 folder)
+=======
+  - [💻 Exercises](#-exercises)
+>>>>>>> 63842ed (minor fixes)
       - [Exercises: Level 1](#exercises-level-1)
       - [Exercises: Level 2](#exercises-level-2)
       - [Exercises: Level 3](#exercises-level-3)
@@ -120,10 +147,14 @@
       - [Getting object keys and values using Object.entries()](#getting-object-keys-and-values-using-objectentries)
       - [Checking properties using hasOwnProperty()](#checking-properties-using-hasownproperty)
 <<<<<<< HEAD
+<<<<<<< HEAD
   - [💻 Exercises](#-exercises-1)
 =======
     - [💻 Exercises](#-exercises-1)
 >>>>>>> dba5f33 (docs: add how to use repo and move js to day1 folder)
+=======
+  - [💻 Exercises](#-exercises-1)
+>>>>>>> 63842ed (minor fixes)
       - [Exercises: Level 1](#exercises-level-1-1)
       - [Exercises: Level 2](#exercises-level-2-1)
       - [Exercises: Level 3](#exercises-level-3-1)
@@ -144,10 +175,14 @@
     - [Function with default parameters](#function-with-default-parameters)
     - [Function declaration versus Arrow function](#function-declaration-versus-arrow-function)
 <<<<<<< HEAD
+<<<<<<< HEAD
   - [💻 Exercises](#-exercises-2)
 =======
     - [💻 Exercises](#-exercises-2)
 >>>>>>> dba5f33 (docs: add how to use repo and move js to day1 folder)
+=======
+  - [💻 Exercises](#-exercises-2)
+>>>>>>> 63842ed (minor fixes)
       - [Exercises: Level 1](#exercises-level-1-2)
       - [Exercises: Level 2](#exercises-level-2-2)
       - [Exercises: Level 3](#exercises-level-3-2)
