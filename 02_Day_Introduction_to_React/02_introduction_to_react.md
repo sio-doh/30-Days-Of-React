@@ -187,6 +187,7 @@ JSX stands for JavaScript XML. JSX allows us to write HTML elements with JavaScr
 ```js
 // JSX syntax
 <<<<<<< HEAD
+<<<<<<< HEAD
 // we don't need to use string when we use JSX
 <<<<<<< HEAD
 // we don't need to use quotes with JSX
@@ -195,6 +196,9 @@ JSX stands for JavaScript XML. JSX allows us to write HTML elements with JavaScr
 =======
 // we don't need to use quotes with  use JSX
 >>>>>>> 980e794 (some fixes)
+=======
+// we don't need to use quotes with JSX
+>>>>>>> 05a9794 (Day_3)
 
 const jsxElement = <h1>I am a JSX element</h1>
 const welcome = <h1>Welcome to 30 Days of React Challenge</h1>
@@ -313,6 +317,7 @@ We comment codes for different reasons and it is also go to know how to comment 
 >>>>>>> 82482b4 (minor changes)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 We comment codes for different reasons and it is also good to know how to comment out JSX elements in React.
 
 ```js
@@ -341,6 +346,9 @@ To render a JSX element to HTML document, we should first create an index HTML. 
 =======
 To render a JSX element to HTML document, we should first create an index HTML. The index.html is the only HTML file you will have in any React Application. That is why we call that every React Application is a single page application. Let us create an index.html file.
 >>>>>>> 980e794 (some fixes)
+=======
+To render a JSX element to HTML document, we should first create an index HTML. The index.html is the only HTML file you will have in any React Application. That is why we call that every React Application is a single page application. Let us create an index.html file. We can get started React in two ways either using CDN or create-react-app. The create-react-app create a React project boilerplate outbox and because of that many people do have a hard time understand how react works. In order to make things clear for absolute beginners I would like to start with a CDN. We use CDN only in this section and we will use the create-reap-app in the rest of the challenge and I also recommend you to use only create-react-app all the time.
+>>>>>>> 05a9794 (Day_3)
 
 ```html
 <!DOCTYPE html>
@@ -1184,10 +1192,14 @@ Now, let us put everything together. Here in the example below, the data is inje
     />
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     <title>30 Days Of React Challenge</title>
 =======
     <title>React For Everyone</title>
 >>>>>>> de90f42 (content added to day 2)
+=======
+    <title>30 Days Of React Challenge</title>
+>>>>>>> 05a9794 (Day_3)
     <style>
       /* == General style === */
       * {
@@ -1328,10 +1340,14 @@ Now, let us put everything together. Here in the example below, the data is inje
 
       const yearBorn = 1820
 <<<<<<< HEAD
+<<<<<<< HEAD
       const currentYear = new Date().getFullYear()
 =======
       const currentYear = 2020
 >>>>>>> de90f42 (content added to day 2)
+=======
+      const currentYear = new Date().getFullYear()
+>>>>>>> 05a9794 (Day_3)
       const age = currentYear - yearBorn
       const personAge = (
         <p>
@@ -1425,10 +1441,14 @@ In the following code example, the list is now containing list elements and form
     />
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     <title>30 Days Of React Challenge</title>
 =======
     <title>React For Everyone</title>
 >>>>>>> de90f42 (content added to day 2)
+=======
+    <title>30 Days Of React Challenge</title>
+>>>>>>> 05a9794 (Day_3)
     <style>
       /* == General style === */
       * {
@@ -1650,10 +1670,14 @@ As you can see above, now the lists are formatted properly but there is warning 
     />
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     <title>30 Days Of React Challenge</title>
 =======
     <title>React For Everyone</title>
 >>>>>>> de90f42 (content added to day 2)
+=======
+    <title>30 Days Of React Challenge</title>
+>>>>>>> 05a9794 (Day_3)
     <style>
       /* == General style === */
       * {
@@ -1858,8 +1882,12 @@ Now, you have a very good understanding of how to create JSX elements and also h
 ![Removing warning ](../images/removing_unique_id_warning.png)
 >>>>>>> d8f75fd (content added to day 2)
 
+<<<<<<< HEAD
 Now, you have a very good understanding of how to create JSX element and also how to inject data to JSX. In the next section, we will talk about component which are more powerful and useful than JSX.
 >>>>>>> de90f42 (content added to day 2)
+=======
+Now, you have a very good understanding of how to create JSX element and also how to inject data to JSX. In the next section, we will talk about how to use create-react-app and component. Components are more powerful and useful than JSX.
+>>>>>>> 05a9794 (Day_3)
 
 🌕 You are awesome. You have just completed day 2 challenges and you are two steps ahead on your way to greatness. Now do some exercises for your brain and for your muscle.
 
