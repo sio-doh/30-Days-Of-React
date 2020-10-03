@@ -13,8 +13,14 @@
 </sub>
 
 </div>
+<<<<<<< HEAD
 
 [<< Day 3](../30-Days-Of-React/03_Day_Setting_Up/03_setting_up.md) | [Day 5 >>](./05_Day_Props/05_props.md)
+=======
+</div>
+
+[<< Day 3](../30-Days-Of-React/03_Day_Setting_Up/03_day_setting_up.md) | [Day 5 >>]()
+>>>>>>> 97dc3fc (Day_4)
 
 ![30 Days of React banner](../images/30_days_of_react_banner_day_4.jpg)
 
@@ -28,8 +34,11 @@
     - [Injecting data to JSX in React Component](#injecting-data-to-jsx-in-react-component)
     - [Further on Functional components](#further-on-functional-components)
 - [Exercises: Components](#exercises-components)
+<<<<<<< HEAD
   - [Exercises: Level 1](#exercises-level-1)
   - [Exercises: Level 2](#exercises-level-2)
+=======
+>>>>>>> 97dc3fc (Day_4)
 
 # Components
 
@@ -63,9 +72,14 @@ const getUserInfo = (firstName, lastName, country, title, skills) => {
   )} `
 }
 // When we call this function we need parameters
+<<<<<<< HEAD
 const skills = ['HTML', 'CSS', 'JS', 'React']
 console.log(
   getUserInfo('Asabeneh', 'Yetayeh', 'Finland', 'FullStack Developer', skills)
+=======
+console.log(
+  getUserInfo('Asabeneh', 'Yetayeh', 'Finland', 'FullStack Developer')
+>>>>>>> 97dc3fc (Day_4)
 )
 ```
 
@@ -90,7 +104,11 @@ class Parent {
   }
 }
 
+<<<<<<< HEAD
 const p1 = new Parent('Asabeneh', 'Yetayeh', 'Finland', 'FullStack Developer')
+=======
+const p1 = Parent('Asabeneh', 'Yetayeh', 'Finland', 'FullStack Developer')
+>>>>>>> 97dc3fc (Day_4)
 
 class Child extends Parent {
   constructor(firstName, lastName, country, title, skills) {
@@ -107,14 +125,21 @@ class Child extends Parent {
   }
 }
 
+<<<<<<< HEAD
 const skills = ['HTML', 'CSS', 'JS', 'React']
 
+=======
+>>>>>>> 97dc3fc (Day_4)
 const child = new Child(
   'Asabeneh',
   'Yetayeh',
   'Finland',
   'FullStack Developer',
+<<<<<<< HEAD
   skills
+=======
+  ['HTML', 'CSS', 'JS', 'React']
+>>>>>>> 97dc3fc (Day_4)
 )
 ```
 
@@ -284,7 +309,11 @@ const App = () => (
 )
 
 const rootElement = document.getElementById('root')
+<<<<<<< HEAD
 // we render the App component using the ReactDOM package
+=======
+// we render the JSX element using the ReactDOM package
+>>>>>>> 97dc3fc (Day_4)
 ReactDOM.render(<App />, rootElement)
 ```
 
@@ -324,7 +353,11 @@ const header = () => {
   )
 }
 const rootElement = document.getElementById('root')
+<<<<<<< HEAD
 // we render the App component using the ReactDOM package
+=======
+// we render the JSX element using the ReactDOM package
+>>>>>>> 97dc3fc (Day_4)
 ReactDOM.render(<Header />, rootElement)
 ```
 
@@ -432,7 +465,11 @@ const app = () => (
   </div>
 )
 
+<<<<<<< HEAD
 // we render the App component using the ReactDOM package
+=======
+// we render the JSX element using the ReactDOM package
+>>>>>>> 97dc3fc (Day_4)
 ReactDOM.render(<App />, rootElement)
 ```
 
@@ -475,15 +512,23 @@ const hexaColor = () => {
   return '#' + color
 }
 
+<<<<<<< HEAD
 const HexaColor = () => <div>{hexaColor()}</div>
 
 const rootElement = document.getElementById('root')
 // we render the App component using the ReactDOM package
+=======
+const HexaColor = () => <div>{hexaColor()}</dv>
+
+const rootElement = document.getElementById('root')
+// we render the JSX element using the ReactDOM package
+>>>>>>> 97dc3fc (Day_4)
 ReactDOM.render(<HexaColor />, rootElement)
 ```
 
 # Exercises: Components
 
+<<<<<<< HEAD
 ## Exercises: Level 1
 
 1. What is a React Component ?
@@ -499,6 +544,10 @@ ReactDOM.render(<HexaColor />, rootElement)
 
 1. Create functional components and display the following images
    ![Front end](../images/frontend_technologies.png)
+=======
+1.Create functional components and display the following images
+![Front end](../images/frontend_technologies.png)
+>>>>>>> 97dc3fc (Day_4)
 
 2.Use functional component to design the following user card.
 
@@ -506,12 +555,20 @@ ReactDOM.render(<HexaColor />, rootElement)
 
 3. Use functional component to create the following design
 
+<<<<<<< HEAD
 ![News Letter](../images/news_letter_design.png)
 
 4.  Use the given hexadecimal color generator in the example to create these random colors
+=======
+![News Letter](../images/news_letter_design.png) 4. Use the give hexadecimal color generator in the example to create these random colors
+>>>>>>> 97dc3fc (Day_4)
 
 ![Hexadecimal colors](../images/hexadecimal_color_exercise.png)
 
 🎉 CONGRATULATIONS ! 🎉
+<<<<<<< HEAD
 
 [<< Day 3](../30-Days-Of-React/03_Day_Setting_Up/03_setting_up.md) | [Day 5 >>](./05_Day_Props/05_props.md)
+=======
+[<< Day 3](../30-Days-Of-React/03_Day_Setting_Up/03_day_setting_up.md) | [Day 5 >>]()
+>>>>>>> 97dc3fc (Day_4)

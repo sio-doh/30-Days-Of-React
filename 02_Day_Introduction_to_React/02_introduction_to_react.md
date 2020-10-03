@@ -870,8 +870,8 @@ In this section we only inject only strings
 const welcome = 'Welcome to 30 Days Of React'
 const title = 'Getting Started React'
 const subtitle = 'JavaScript Library'
-const authorFirstName = 'Asabeneh'
-const authorLastName = 'Yetayeh'
+const firstName = 'Asabeneh'
+const lastName = 'Yetayeh'
 const date = 'Oct 2, 2020'
 
 // JSX element, header
@@ -884,7 +884,7 @@ const header = (
       <h2>{title}</h2>
       <h3>{subtitle}</h3>
       <p>
-        Instructor: {authorFirstName} {authorLastName}
+        Instructor: {firstName} {lastName}
       </p>
       <small>Date: {date}</small>
     </div>
