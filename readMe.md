@@ -56,6 +56,7 @@ ___
   - [Code Editor](#code-editor)
     - [Installing Visual Studio Code](#installing-visual-studio-code)
     - [How to Use Visual Studio Code](#how-to-use-visual-studio-code)
+<<<<<<< HEAD
 - [Adding JavaScript to a Web Page](#adding-javascript-to-a-web-page)
   - [Inline Script](#inline-script)
   - [Internal Script](#internal-script)
@@ -197,6 +198,10 @@ ___
     - [Exercises Level 1](#exercises-level-1-3)
     - [Exercises Level 2](#exercises-level-2-3)
     - [Exercises Level 3](#exercises-level-3-3)
+=======
+
+___
+>>>>>>> dba5f33 (docs: add how to use repo and move js to day1 folder)
 
 <div align="center">
   <h1> 30 Days Of React</h1>
@@ -495,6 +500,7 @@ Open the Visual Studio Code by double-clicking its icon. When you open it, you w
 ![coding running](./images/launched_on_new_tab.png)
 
 Congratulations! You have completed the setup you need to get started with React, but before we dive into React let's do JavaScript refresher. If you are very comfortable with JavaScript you may skip day 1 JavaScript refresher. The JavaScript refresher section is vast and it may take more than one day. From my experience people usually get stuck in React because their JavaScript knowledge is very shallow therefore to fill that gap all the necessary JavaScript feature which can be used in React are covered in the JavaScript refresher section. There are many exercise but you are not required to solve them. Click [here](../30-Days-Of-React/02_Day_Introduction_to_React/02_introduction_to_react.md) if you want skip JavaScript and jump directly into React.
+<<<<<<< HEAD
 ## Adding JavaScript to a Web Page
 
 JavaScript can be added to a web page in three different ways:
@@ -4852,6 +4858,8 @@ So do not directly manipulate the DOM if you are using react. The only place we 
 Check out there result on [codepen](https://codepen.io/Asabeneh/full/vYGqQxP)
 
 🌕 You are amazing! You have just completed day 1 challenge and you are on your way to greatness. Now you are a JavaScript Ninja and ready to dive into React.
+=======
+>>>>>>> dba5f33 (docs: add how to use repo and move js to day1 folder)
 
 🎉 CONGRATULATIONS ! 🎉
 

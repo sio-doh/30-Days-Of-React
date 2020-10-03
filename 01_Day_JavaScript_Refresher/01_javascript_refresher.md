@@ -1,19 +1,32 @@
 <div align="center">
+<<<<<<< HEAD
 
+=======
+>>>>>>> dba5f33 (docs: add how to use repo and move js to day1 folder)
   <h1> 30 Days Of React: JavaScript Refresher</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
     <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
+<<<<<<< HEAD
 
+=======
+>>>>>>> dba5f33 (docs: add how to use repo and move js to day1 folder)
   <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
     <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
 
+<<<<<<< HEAD
 <sub>Author:
 <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
 <small> October, 2020</small>
 </sub>
 
+=======
+  <sub>
+    Author: <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+    <small> October, 2020</small>
+  </sub>
+>>>>>>> dba5f33 (docs: add how to use repo and move js to day1 folder)
 </div>
 
 [<< Day 0](../readMe.md) | [Day 2 >>](../02_Day_Introduction_to_React/02_introduction_to_react.md)
@@ -21,7 +34,11 @@
 ![30 Days of React banner](../images/30_days_of_react_banner_day_1.jpg)
 
 - [JavaScript Refresher](#javascript-refresher)
+<<<<<<< HEAD
   - [0. Adding JavaScript to a Web Page](#0-adding-javascript-to-a-web-page)
+=======
+  - [0. Adding JavaScript to a Web Page](#adding-javascript-to-a-web-page)
+>>>>>>> dba5f33 (docs: add how to use repo and move js to day1 folder)
     - [Inline Script](#inline-script)
     - [Internal Script](#internal-script)
     - [External Script](#external-script)
@@ -53,7 +70,11 @@
       - [Reversing array order](#reversing-array-order)
       - [Sorting elements in array](#sorting-elements-in-array)
     - [Array of arrays](#array-of-arrays)
+<<<<<<< HEAD
   - [💻 Exercise](#-exercise)
+=======
+    - [💻 Exercise](#-exercise)
+>>>>>>> dba5f33 (docs: add how to use repo and move js to day1 folder)
       - [Exercise: Level 1](#exercise-level-1)
       - [Exercise: Level 2](#exercise-level-2)
       - [Exercise: Level 3](#exercise-level-3)
@@ -63,7 +84,11 @@
     - [If Else if Else](#if-else-if-else)
     - [Switch](#switch)
     - [Ternary Operators](#ternary-operators)
+<<<<<<< HEAD
   - [💻 Exercises](#-exercises)
+=======
+    - [💻 Exercises](#-exercises)
+>>>>>>> dba5f33 (docs: add how to use repo and move js to day1 folder)
       - [Exercises: Level 1](#exercises-level-1)
       - [Exercises: Level 2](#exercises-level-2)
       - [Exercises: Level 3](#exercises-level-3)
@@ -94,7 +119,11 @@
       - [Getting object values using Object.values()](#getting-object-values-using-objectvalues)
       - [Getting object keys and values using Object.entries()](#getting-object-keys-and-values-using-objectentries)
       - [Checking properties using hasOwnProperty()](#checking-properties-using-hasownproperty)
+<<<<<<< HEAD
   - [💻 Exercises](#-exercises-1)
+=======
+    - [💻 Exercises](#-exercises-1)
+>>>>>>> dba5f33 (docs: add how to use repo and move js to day1 folder)
       - [Exercises: Level 1](#exercises-level-1-1)
       - [Exercises: Level 2](#exercises-level-2-1)
       - [Exercises: Level 3](#exercises-level-3-1)
@@ -114,7 +143,11 @@
     - [Arrow Function](#arrow-function)
     - [Function with default parameters](#function-with-default-parameters)
     - [Function declaration versus Arrow function](#function-declaration-versus-arrow-function)
+<<<<<<< HEAD
   - [💻 Exercises](#-exercises-2)
+=======
+    - [💻 Exercises](#-exercises-2)
+>>>>>>> dba5f33 (docs: add how to use repo and move js to day1 folder)
       - [Exercises: Level 1](#exercises-level-1-2)
       - [Exercises: Level 2](#exercises-level-2-2)
       - [Exercises: Level 3](#exercises-level-3-2)
@@ -231,7 +264,11 @@ This is how we write an internal script most of the time. Writing the JavaScript
 
 Open the browser console to see the output from the console.log()
 
+<<<<<<< HEAD
 ![js code from vscode](../images/js_code_vscode.png)
+=======
+![js code from vscode](./images/js_code_vscode.png)
+>>>>>>> dba5f33 (docs: add how to use repo and move js to day1 folder)
 
 #### External Script
 
@@ -297,7 +334,11 @@ console.log('Hello, World!')
 
 _Your main.js file should be below all other scripts_. It is very important to remember this.
 
+<<<<<<< HEAD
 ![Multiple Script](../images/multiple_script.png)
+=======
+![Multiple Script](./images/multiple_script.png)
+>>>>>>> dba5f33 (docs: add how to use repo and move js to day1 folder)
 
 ### 1. Variables
 
@@ -433,7 +474,11 @@ console.log(words)
 
 We access each element in an array using their index. An array index starts from 0. The picture below clearly shows the index of each element in the array.
 
+<<<<<<< HEAD
 ![arr index](../images/array_index.png)
+=======
+![arr index](./images/array_index.png)
+>>>>>>> dba5f33 (docs: add how to use repo and move js to day1 folder)
 
 ```js
 const fruits = ['banana', 'orange', 'mango', 'lemon']
@@ -2763,12 +2808,20 @@ Let us see were we use call back functions.For instance the _forEach_ method use
 
 ```js
 const numbers = [1, 2, 3, 4]
+<<<<<<< HEAD
+=======
+​
+>>>>>>> dba5f33 (docs: add how to use repo and move js to day1 folder)
 const sumArray = arr => {
   let sum = 0
   const callBack = function(element) {
     sum += element
   }
+<<<<<<< HEAD
   arr.forEach(callback)
+=======
+  numbers.forEach(callback)
+>>>>>>> dba5f33 (docs: add how to use repo and move js to day1 folder)
   return sum
 
 }
@@ -2776,7 +2829,11 @@ console.log(sumArray(numbers))
 ```
 
 ```sh
+<<<<<<< HEAD
 10
+=======
+15
+>>>>>>> dba5f33 (docs: add how to use repo and move js to day1 folder)
 ```
 
 The above example can be simplified as follows:
@@ -2786,7 +2843,11 @@ const numbers = [1, 2, 3, 4]
 ​
 const sumArray = arr => {
   let sum = 0
+<<<<<<< HEAD
   arr.forEach(function(element) {
+=======
+  numbers.forEach(function(element) {
+>>>>>>> dba5f33 (docs: add how to use repo and move js to day1 folder)
     sum += element
   })
   return sum
@@ -2796,7 +2857,11 @@ console.log(sumArray(numbers))
 ```
 
 ```sh
+<<<<<<< HEAD
 10
+=======
+15
+>>>>>>> dba5f33 (docs: add how to use repo and move js to day1 folder)
 ```
 
 #### setting time
@@ -4082,7 +4147,11 @@ class Person {
     const fullName = this.firstName + ' ' + this.lastName
     return fullName
   }
+<<<<<<< HEAD
   get getScore() {
+=======
+  get getscore() {
+>>>>>>> dba5f33 (docs: add how to use repo and move js to day1 folder)
     return this.score
   }
   get getSkills() {
