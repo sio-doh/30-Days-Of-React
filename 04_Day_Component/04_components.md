@@ -75,6 +75,7 @@ const getUserInfo = (firstName, lastName, country, title, skills) => {
 }
 // When we call this function we need parameters
 <<<<<<< HEAD
+<<<<<<< HEAD
 const skills = ['HTML', 'CSS', 'JS', 'React']
 console.log(
   getUserInfo('Asabeneh', 'Yetayeh', 'Finland', 'FullStack Developer', skills)
@@ -82,6 +83,11 @@ console.log(
 console.log(
   getUserInfo('Asabeneh', 'Yetayeh', 'Finland', 'FullStack Developer')
 >>>>>>> 97dc3fc (Day_4)
+=======
+const skills = ['HTML', 'CSS', 'JS', 'React']
+console.log(
+  getUserInfo('Asabeneh', 'Yetayeh', 'Finland', 'FullStack Developer', skills)
+>>>>>>> e730c07 (minor fixes)
 )
 ```
 
@@ -584,11 +590,15 @@ ReactDOM.render(<HexaColor />, rootElement)
 🎉 CONGRATULATIONS ! 🎉
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 [<< Day 3](../30-Days-Of-React/03_Day_Setting_Up/03_setting_up.md) | [Day 5 >>](./05_Day_Props/05_props.md)
 =======
 [<< Day 3](../30-Days-Of-React/03_Day_Setting_Up/03_day_setting_up.md) | [Day 5 >>]()
 >>>>>>> 97dc3fc (Day_4)
 =======
+=======
+
+>>>>>>> e730c07 (minor fixes)
 [<< Day 3](../30-Days-Of-React/03_Day_Setting_Up/03_day_setting_up.md) | [Day 5 >>](./05_Day_Props/05_props.md)
 >>>>>>> b9e074d (some changes)
