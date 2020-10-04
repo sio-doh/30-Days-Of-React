@@ -2,6 +2,7 @@ draft.md
 draft.md
 react-for-everyone.md
 component.md
+<<<<<<< HEAD
 05_Day_Props
 06_Day_Map_List_Keys
 08_Day_States
@@ -10,3 +11,6 @@ component.md
 11_Day_Forms
 react-for-everyone.md
 component.md
+=======
+05_Day_Props
+>>>>>>> b9e074d (some changes)

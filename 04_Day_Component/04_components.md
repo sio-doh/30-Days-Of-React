@@ -13,18 +13,17 @@
 </sub>
 
 </div>
-<<<<<<< HEAD
 
 [<< Day 3](../30-Days-Of-React/03_Day_Setting_Up/03_setting_up.md) | [Day 5 >>](./05_Day_Props/05_props.md)
-=======
 </div>
 
 [<< Day 3](../30-Days-Of-React/03_Day_Setting_Up/03_day_setting_up.md) | [Day 5 >>]()
->>>>>>> 97dc3fc (Day_4)
+
+[<< Day 3](../30-Days-Of-React/03_Day_Setting_Up/03_day_setting_up.md) | [Day 5 >>](./05_Day_Props/05_props.md)
 
 ![30 Days of React banner](../images/30_days_of_react_banner_day_4.jpg)
 
-- [Components](#components)
+- [Props](#props)
   - [Big picture of components](#big-picture-of-components)
   - [JavaScript function](#javascript-function)
   - [JavaScript Class](#javascript-class)
@@ -40,7 +39,7 @@
 =======
 >>>>>>> 97dc3fc (Day_4)
 
-# Components
+# Props
 
 A React component is small reusable code which is responsible for one part of the application UI. A React application is an aggregation of components. React can help us to build reusable components. The following diagram shows different components. All the components have different border colors. In react we assemble different components together to create an application. We use a JavaScript function or class to make components. If we use a function the component will be a functional component but if we use class the function will be a class based component.
 
@@ -566,15 +565,23 @@ ReactDOM.render(<HexaColor />, rootElement)
 =======
 ![News Letter](../images/news_letter_design.png)
 
+<<<<<<< HEAD
  4. Use the given hexadecimal color generator in the example to create these random colors
 >>>>>>> 9209ecb (Day_4)
+=======
+4.  Use the given hexadecimal color generator in the example to create these random colors
+>>>>>>> b9e074d (some changes)
 
 ![Hexadecimal colors](../images/hexadecimal_color_exercise.png)
 
 🎉 CONGRATULATIONS ! 🎉
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 [<< Day 3](../30-Days-Of-React/03_Day_Setting_Up/03_setting_up.md) | [Day 5 >>](./05_Day_Props/05_props.md)
 =======
 [<< Day 3](../30-Days-Of-React/03_Day_Setting_Up/03_day_setting_up.md) | [Day 5 >>]()
 >>>>>>> 97dc3fc (Day_4)
+=======
+[<< Day 3](../30-Days-Of-React/03_Day_Setting_Up/03_day_setting_up.md) | [Day 5 >>](./05_Day_Props/05_props.md)
+>>>>>>> b9e074d (some changes)
