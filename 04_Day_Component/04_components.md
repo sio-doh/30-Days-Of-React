@@ -515,12 +515,16 @@ const hexaColor = () => {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 const HexaColor = () => <div>{hexaColor()}</div>
 
 const rootElement = document.getElementById('root')
 // we render the App component using the ReactDOM package
 =======
 const HexaColor = () => <div>{hexaColor()}</dv>
+=======
+const HexaColor = () => <div>{hexaColor()}</div>
+>>>>>>> f81e2f7 (cleaning)
 
 const rootElement = document.getElementById('root')
 // we render the JSX element using the ReactDOM package
