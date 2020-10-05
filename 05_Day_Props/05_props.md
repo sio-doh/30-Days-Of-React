@@ -19,8 +19,12 @@
 =======
 </div>
 
+<<<<<<< HEAD
 [<< Day 4](../30-Days-Of-React/04_Day_Component/04_components.md) | [Day 6 >>]()
 >>>>>>> a95ca32 (Day_5)
+=======
+[<< Day 4](../04_Day_Component/04_components.md) | [Day 6 >>]()
+>>>>>>> 2c4d226 (Day_5)
 
 ![30 Days of React banner](../images/30_days_of_react_banner_day_5.jpg)
 
@@ -1357,8 +1361,13 @@ We will cover propTypes in detail in other section.
 
 🎉 CONGRATULATIONS ! 🎉
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 [<< Day 4](../04_Day_Component/04_components.md) | [Day 6 >>](../06_Day_Map_List_Keys/06_map_list_keys.md)
 =======
 [<< Day 4](../30-Days-Of-React/04_Day_Component/04_components.md) | [Day 6 >>]()
 >>>>>>> a95ca32 (Day_5)
+=======
+
+[<< Day 4](../04_Day_Component/04_components.md) | [Day 6 >>]()
+>>>>>>> 2c4d226 (Day_5)
