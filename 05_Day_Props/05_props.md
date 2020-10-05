@@ -57,6 +57,7 @@
 ## Props in Functional Component
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 In the previous day, we saw how to inject different data types to React component JSX. Now, let us see how we use it in component and also how to pass different data as props.
 
 ## What is props?
@@ -66,13 +67,20 @@ Props is a special keyword in React that stands for properties and is being used
 I hope you are familiar with JavaScript function. Most of the time, functions with parameters are smart and they can take dynamic data likewise props is a way we pass data or parameter to a component. Let's see the difference between a function and a component.
 =======
 In the previous day, we saw how to inject dynamic data types to React component JSX. Now, let us see how we use dynamic data in component and also how to pass data as props.
+=======
+In the previous day, we saw how to inject different data types to React component JSX. Now, let us see how we use it in component and also how to pass different data as props.
+>>>>>>> 37d04cb (cleaning day_5)
 
 ## What is props?
 
-Props is a special keyword in React that stands for properties and is being used to pass data from one component another and mostly from parent component to child component.
+Props is a special keyword in React that stands for properties and is being used to pass data from one component to another and mostly from parent component to child component. We can say props is a data carrier or a means to transport data.
 
+<<<<<<< HEAD
 I hope you are familiar with JavaScript function. Most of the time, functions with parameters are smart and they can take dynamic data likewise props is a way we pass data or parameter to a component. Let's see the deference between a function and a component.
 >>>>>>> a95ca32 (Day_5)
+=======
+I hope you are familiar with JavaScript function. Most of the time, functions with parameters are smart and they can take dynamic data likewise props is a way we pass data or parameter to a component. Let's see the difference between a function and a component.
+>>>>>>> 37d04cb (cleaning day_5)
 
 ```js
 // function syntax
@@ -100,10 +108,14 @@ const User = (props) => {
   )
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 // calling or instantiating a component, this component has three properties and we call them props:firstName, lastName, country
 =======
 // calling or instantiating a component
 >>>>>>> a95ca32 (Day_5)
+=======
+// calling or instantiating a component, this component has three properties and we call them props:firstName, lastName, country
+>>>>>>> 37d04cb (cleaning day_5)
 <User firstName = 'Asabeneh', lastName='Yetayeh' country = 'Finland' />
 ```
 
@@ -136,6 +148,7 @@ const Header = () => (
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Instead of injecting data we can also pass the data as a props. React props is similar to parameters in function.
 
 ## Props object
@@ -148,6 +161,14 @@ Instead of injecting data we can also pass the data as a props. React props is s
 ## Props object
 
 >>>>>>> a95ca32 (Day_5)
+=======
+Instead of injecting data we can also pass the data as a props. React props is similar to parameters in function.
+
+## Props object
+
+React props is an object which you get instantly when you create a React component. Before we pass properties to the component, let's check what do we get in the props object.
+
+>>>>>>> 37d04cb (cleaning day_5)
 ```js
 import React from 'react'
 import ReactDOM from 'react-dom'
@@ -170,9 +191,13 @@ const Header = (props) => {
   )
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> a95ca32 (Day_5)
+=======
+
+>>>>>>> 37d04cb (cleaning day_5)
 // The App, or the parent or the container component
 // Functional Component
 const App = () => {
@@ -189,6 +214,7 @@ ReactDOM.render(<App />, rootElement)
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 In the above console.log(props), you would get an empty object({}). That means if you do not pass any attributes or properties when you instantiate the component, the props will be empty otherwise it will be populated with the data you passed as attributes and the proper name of these attributes are props.
 
 Let's start with a simple example. In the example below, the welcome string has been passed as props in the Header components.
@@ -197,6 +223,11 @@ In the above console.log(props), you would get an empty object({}). That means i
 
 Let's start with a simple example. In the example below, the welcome message data injected as props in the Header components.
 >>>>>>> a95ca32 (Day_5)
+=======
+In the above console.log(props), you would get an empty object({}). That means if you do not pass any attributes or properties when you instantiate the component, the props will be empty otherwise it will be populated with the data you passed as attributes and the proper name of these attributes are props.
+
+Let's start with a simple example. In the example below, the welcome string has been passed as props in the Header components.
+>>>>>>> 37d04cb (cleaning day_5)
 
 ```js
 import React from 'react'
@@ -236,8 +267,12 @@ Now, when you do console.log(props) you should get the following object, that me
 ReactDOM.render(<App />, rootElement)
 ```
 
+<<<<<<< HEAD
 Now, when you do console.log(props) you should get the following object, that means all the props we passed to the Header component can be found a props object.
 >>>>>>> a95ca32 (Day_5)
+=======
+Now, when you do console.log(props) you should get the following object, that means the welcome property we passed to the Header component can be found inside the props object.
+>>>>>>> 37d04cb (cleaning day_5)
 
 ```js
 {
@@ -246,12 +281,16 @@ Now, when you do console.log(props) you should get the following object, that me
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 As you can see in the above code, we passed only a single props to Header component, the welcome props. A component can have one or many props. Props could be different data types. It could be a string, number, boolean, array, object or a function. We will cover different kind of props in the next sections.
 =======
 As you can see in the above code, the data passed as props to Header component.
 
 A component has one or many props. Props could be a string, number, boolean, array, object or a function. We will cover differ different kind of props in this sections.
 >>>>>>> a95ca32 (Day_5)
+=======
+As you can see in the above code, we passed only a single props to Header component, the welcome props. A component can have one or many props. Props could be different data types. It could be a string, number, boolean, array, object or a function. We will cover different kind of props in the next sections.
+>>>>>>> 37d04cb (cleaning day_5)
 
 ### Different data type props
 
@@ -320,10 +359,14 @@ welcome: "Welcome to 30 Days Of React"
 Since you are a JavaScript ninja by now, you know what do do with this object.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 As you can see from the above example, the value of the props are written statically. However, if we want to apply some logic it is hard to implement with statically written data, so it will be better to use a variable as props. Let's see the following example:
 =======
 As you can see from the above example, the value of the props are written statically. However, if we want to apply some logic it is hard to implement with statically written data, so it better to use a variable as props. Let's see the following example:
 >>>>>>> a95ca32 (Day_5)
+=======
+As you can see from the above example, the value of the props are written statically. However, if we want to apply some logic it is hard to implement with statically written data, so it will be better to use a variable as props. Let's see the following example:
+>>>>>>> 37d04cb (cleaning day_5)
 
 ```js
 import React from 'react'
@@ -432,10 +475,14 @@ const App = () => {
   let currentYear = 2020
   let birthYear = 2015
 <<<<<<< HEAD
+<<<<<<< HEAD
   const age = currentYear - birthYear // 15 years
 =======
   const age = currentYear - birthYear // 200 years
 >>>>>>> a95ca32 (Day_5)
+=======
+  const age = currentYear - birthYear // 15 years
+>>>>>>> 37d04cb (cleaning day_5)
 
   let status = age >= 18
 
@@ -596,10 +643,14 @@ const App = () => {
       lastName: 'Yetayeh',
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
     date: new Date(), // date needs to be formatted to a human readable format
 =======
     date: new Date(),
 >>>>>>> a95ca32 (Day_5)
+=======
+    date: new Date(), // date needs to be formatted to a human readable format
+>>>>>>> 37d04cb (cleaning day_5)
   }
 
   return (
@@ -619,8 +670,12 @@ When we use object as props we usually destructure the data to access the values
 ReactDOM.render(<App />, rootElement)
 ```
 
+<<<<<<< HEAD
 When we use object as props we usually destructure the data to access the values. Destructuring make our code easy to read. We will see soon destructuring of props but before that let's see function as a props for a React component.
 >>>>>>> a95ca32 (Day_5)
+=======
+When we use object as props we usually destructure the data to access the values. Destructuring makes our code easy to read. We will see soon destructuring of props but before that let's see function as a props for a React component.
+>>>>>>> 37d04cb (cleaning day_5)
 
 ### Function prop types
 
@@ -630,6 +685,7 @@ We can pass function as prop type to a React component. Let's see examples
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 // A button component
 
@@ -699,13 +755,63 @@ const showDate = (time) => {
     'November',
     'December',
   ]
+=======
+// A button component
+>>>>>>> 37d04cb (cleaning day_5)
 
-  const month = months[time.getMonth()].slice(0, 3)
-  const year = time.getFullYear()
-  const date = time.getDate()
-  return ` ${month} ${date}, ${year}`
+const Button = (props) => <button onClick={props.onClick}>{props.text}</button>
+
+// The App, or the parent or the container component
+// Functional Component
+const App = () => {
+  const sayHi = () => {
+    alert('Hi')
+  }
+
+  return (
+    <div className='app'>
+      <Button text='Say Hi' onClick={sayHi} />
+    </div>
+  )
 }
+<<<<<<< HEAD
 >>>>>>> a95ca32 (Day_5)
+=======
+const rootElement = document.getElementById('root')
+// we render the JSX element using the ReactDOM package
+ReactDOM.render(<App />, rootElement)
+```
+
+Even we can write function inside the curly bracket
+
+```js
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+// A button component
+
+const Button = (props) => <button onClick={props.onClick}>{props.text}</button>
+
+// The App, or the parent or the container component
+// Functional Component
+const App = () => {
+  return (
+    <div className='app'>
+      <Button text='Say Hi' onClick={() => alert('Hi')} />
+    </div>
+  )
+}
+const rootElement = document.getElementById('root')
+// we render the JSX element using the ReactDOM package
+ReactDOM.render(<App />, rootElement)
+```
+
+Now, lets implement different functions as a props
+
+```js
+import React from 'react'
+import ReactDOM from 'react-dom'
+>>>>>>> 37d04cb (cleaning day_5)
 
 // A button component
 
@@ -722,9 +828,13 @@ const App = () => {
     <div className='app'>
       <Button text='Greet People' onClick={greetPeople} />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <Button text='Show Time' onClick={() => alert(new Date())} />
 =======
 >>>>>>> a95ca32 (Day_5)
+=======
+      <Button text='Show Time' onClick={() => alert(new Date())} />
+>>>>>>> 37d04cb (cleaning day_5)
     </div>
   )
 }
@@ -780,6 +890,7 @@ const App = () => {
     alert(showDate(new Date()))
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   const greetPeople = () => {
     alert('Welcome to 30 Days Of React Challenge, 2020')
   }
@@ -793,6 +904,15 @@ const App = () => {
     <div className='app'>
       <Button text='show time' onClick={handleTime} />
 >>>>>>> a95ca32 (Day_5)
+=======
+  const greetPeople = () => {
+    alert('Welcome to 30 Days Of React Challenge, 2020')
+  }
+  return (
+    <div className='app'>
+      <Button text='show time' onClick={handleTime} />
+      <Button text='Greet People' onClick={greetPeople} />
+>>>>>>> 37d04cb (cleaning day_5)
     </div>
   )
 }
@@ -1043,10 +1163,14 @@ ReactDOM.render(<App />, rootElement)
 
 Now, let's destructure all the components we had and assemble them together. We pass props from one component to another typically from parent to a child component.
 <<<<<<< HEAD
+<<<<<<< HEAD
 For instance in the Main component techs, user, greetPeople and handleTime props have been passed from the parent component Main to child components TechList and UserCard. Below, you will get all the codes destructured and cleaned.
 =======
 For instance in the Main component techs and user props have been passed from the parent component Main to child components TechList and UserCard. Below, you will get all the codes destructured and cleaned.
 >>>>>>> a95ca32 (Day_5)
+=======
+For instance in the Main component techs, user, greetPeople and handleTime  props have been passed from the parent component Main to child components TechList and UserCard. Below, you will get all the codes destructured and cleaned.
+>>>>>>> 37d04cb (cleaning day_5)
 
 ```js
 import React from 'react'
@@ -1144,8 +1268,12 @@ const buttonStyles = {
 const Main = ({ user, techs, greetPeople, handleTime }) => (
 =======
 // Main Component
+<<<<<<< HEAD
 const Main = ({ user, techs }) => (
 >>>>>>> a95ca32 (Day_5)
+=======
+const Main = ({ user, techs, greetPeople, handleTime }) => (
+>>>>>>> 37d04cb (cleaning day_5)
   <main>
     <div className='main-wrapper'>
       <p>Prerequisite to get started react.js:</p>
@@ -1154,10 +1282,15 @@ const Main = ({ user, techs }) => (
       </ul>
       <UserCard user={user} />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <Button text='Greet People' onClick={greetPeople} style={buttonStyles} />
       <Button text='Show Time' onClick={handleTime} style={buttonStyles} />
 =======
 >>>>>>> a95ca32 (Day_5)
+=======
+      <Button text='Greet People' onClick={greetPeople} />
+      <Button text='Show Time' onClick={handleTime} />
+>>>>>>> 37d04cb (cleaning day_5)
     </div>
   </main>
 )
@@ -1198,6 +1331,9 @@ const App = () => {
   const user = { ...data.author, image: asabenehImage }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 37d04cb (cleaning day_5)
   const handleTime = () => {
     alert(showDate(new Date()))
   }
@@ -1205,6 +1341,7 @@ const App = () => {
     alert('Welcome to 30 Days Of React Challenge, 2020')
   }
 
+<<<<<<< HEAD
   return (
     <div className='app'>
       <Header data={data} />
@@ -1220,6 +1357,17 @@ const App = () => {
       <Header data={data} />
       <Main user={user} techs={techs} />
 >>>>>>> a95ca32 (Day_5)
+=======
+  return (
+    <div className='app'>
+      <Header data={data} />
+      <Main
+        user={user}
+        techs={techs}
+        handleTime={handleTime}
+        greetPeople={greetPeople}
+      />
+>>>>>>> 37d04cb (cleaning day_5)
       <Footer copyRight={date} />
     </div>
   )
