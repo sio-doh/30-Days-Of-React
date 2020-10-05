@@ -1164,6 +1164,7 @@ ReactDOM.render(<App />, rootElement)
 Now, let's destructure all the components we had and assemble them together. We pass props from one component to another typically from parent to a child component.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 For instance in the Main component techs, user, greetPeople and handleTime props have been passed from the parent component Main to child components TechList and UserCard. Below, you will get all the codes destructured and cleaned.
 =======
 For instance in the Main component techs and user props have been passed from the parent component Main to child components TechList and UserCard. Below, you will get all the codes destructured and cleaned.
@@ -1171,6 +1172,9 @@ For instance in the Main component techs and user props have been passed from th
 =======
 For instance in the Main component techs, user, greetPeople and handleTime  props have been passed from the parent component Main to child components TechList and UserCard. Below, you will get all the codes destructured and cleaned.
 >>>>>>> 37d04cb (cleaning day_5)
+=======
+For instance in the Main component techs, user, greetPeople and handleTime props have been passed from the parent component Main to child components TechList and UserCard. Below, you will get all the codes destructured and cleaned.
+>>>>>>> 6eaa930 (day_5 has been cleaned)
 
 ```js
 import React from 'react'
@@ -1300,10 +1304,14 @@ const Footer = ({ copyRight }) => (
   <footer>
     <div className='footer-wrapper'>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <p>Copyright {copyRight.getFullYear()}</p>
 =======
       <p>{copyRight.getFullYear()}</p>
 >>>>>>> a95ca32 (Day_5)
+=======
+      <p>Copyright {copyRight.getFullYear()}</p>
+>>>>>>> 6eaa930 (day_5 has been cleaned)
     </div>
   </footer>
 )
