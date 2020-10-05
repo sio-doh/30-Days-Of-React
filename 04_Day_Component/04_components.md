@@ -113,10 +113,14 @@ class Parent {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 const p1 = new Parent('Asabeneh', 'Yetayeh', 'Finland', 'FullStack Developer')
 =======
 const p1 = Parent('Asabeneh', 'Yetayeh', 'Finland', 'FullStack Developer')
 >>>>>>> 97dc3fc (Day_4)
+=======
+const p1 = new Parent('Asabeneh', 'Yetayeh', 'Finland', 'FullStack Developer')
+>>>>>>> 02516c4 (day_5 has been cleaned)
 
 class Child extends Parent {
   constructor(firstName, lastName, country, title, skills) {
@@ -134,20 +138,29 @@ class Child extends Parent {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 const skills = ['HTML', 'CSS', 'JS', 'React']
 
 =======
 >>>>>>> 97dc3fc (Day_4)
+=======
+const skills = ['HTML', 'CSS', 'JS', 'React']
+
+>>>>>>> 02516c4 (day_5 has been cleaned)
 const child = new Child(
   'Asabeneh',
   'Yetayeh',
   'Finland',
   'FullStack Developer',
 <<<<<<< HEAD
+<<<<<<< HEAD
   skills
 =======
   ['HTML', 'CSS', 'JS', 'React']
 >>>>>>> 97dc3fc (Day_4)
+=======
+  skills
+>>>>>>> 02516c4 (day_5 has been cleaned)
 )
 ```
 

@@ -1248,6 +1248,9 @@ const UserCard = ({ user: { firstName, lastName, image } }) => (
 )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 02516c4 (day_5 has been cleaned)
 // A button component
 
 const Button = ({ text, onClick, style }) => (
@@ -1256,7 +1259,10 @@ const Button = ({ text, onClick, style }) => (
   </button>
 )
 
+<<<<<<< HEAD
 // CSS styles in JavaScript Object
+=======
+>>>>>>> 02516c4 (day_5 has been cleaned)
 const buttonStyles = {
   backgroundColor: '#61dbfb',
   padding: 10,
@@ -1287,6 +1293,7 @@ const Main = ({ user, techs, greetPeople, handleTime }) => (
       <UserCard user={user} />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <Button text='Greet People' onClick={greetPeople} style={buttonStyles} />
       <Button text='Show Time' onClick={handleTime} style={buttonStyles} />
 =======
@@ -1295,6 +1302,10 @@ const Main = ({ user, techs, greetPeople, handleTime }) => (
       <Button text='Greet People' onClick={greetPeople} />
       <Button text='Show Time' onClick={handleTime} />
 >>>>>>> 37d04cb (cleaning day_5)
+=======
+      <Button text='Greet People' onClick={greetPeople} style={buttonStyles} />
+      <Button text='Show Time' onClick={handleTime} style={buttonStyles} />
+>>>>>>> 02516c4 (day_5 has been cleaned)
     </div>
   </main>
 )
@@ -1328,10 +1339,14 @@ const App = () => {
       lastName: 'Yetayeh',
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
     date: new Date(), // date needs to be formatted to a human readable format
 =======
     date: new Date(),
 >>>>>>> a95ca32 (Day_5)
+=======
+    date: new Date(), // date needs to be formatted to a human readable format
+>>>>>>> 02516c4 (day_5 has been cleaned)
   }
   const date = new Date()
   const techs = ['HTML', 'CSS', 'JavaScript']
@@ -1387,6 +1402,7 @@ const rootElement = document.getElementById('root')
 ReactDOM.render(<App />, rootElement)
 ```
 
+<<<<<<< HEAD
 ```js
 import React from 'react'
 import ReactDOM from 'react-dom'
@@ -1476,6 +1492,8 @@ const rootElement = document.getElementById('root')
 ReactDOM.render(<App />, rootElement)
 ```
 
+=======
+>>>>>>> 02516c4 (day_5 has been cleaned)
 ## propTypes
 
 The propTypes package help as to assign the data types of the props we passed to a component.
