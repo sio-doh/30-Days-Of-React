@@ -34,11 +34,8 @@
   - [Injecting data to JSX elements](#injecting-data-to-jsx-elements)
   - [Importing Media Objects in React](#importing-media-objects-in-react)
 - [Exercises](#exercises)
-<<<<<<< HEAD
   - [Exercises: Level 1](#exercises-level-1)
   - [Exercises: Level 2](#exercises-level-2)
-=======
->>>>>>> 6f350ce (Day_6)
 
 # Setting Up
 
@@ -47,10 +44,7 @@ In the previous section, we learned about JSX and we access the React and ReactD
 ## Node
 
 Node is a JavaScript run time environment which allows to run JavaScript on the server. Node was created in 2019. Node has played a great role for the growth of JavaScript. React application starts by defaul at localhost 3000. The create-react-app has configured a node server for the application the React Application. We will see create-react-app soon. 
-<<<<<<< HEAD
-=======
 
->>>>>>> 6f350ce (Day_6)
 In the previous section, we learned about JSX and we accessed the React and ReactDOM package using CDN. However, in real projects instead of CDN you will use the create-react-app package to generate a React project starter(boilerplate). The initial _create-react-app_ was released on Jul 22, 2016. Before this time, developers used to configure webpack which a JavaScript module bundler, babel and all the necessary packages manually and this used to take half an hour or may be more. Now, create-react-app will take care of everything and you will be in charge of developing the product only instead of spending too much time configuring and setting up projects. Before we start using different tools, let's have a brief introduction for all the tools we are going to use in this challenge. You do not have to understand everything but I will try to give a very short introduction about some of the tools and technologies which we use when we work with React.
 
 ## Node
@@ -751,7 +745,6 @@ The boilerplate code can be found [here](../03/../03_Day_Setting_Up/30-days-of-r
 
 # Exercises
 
-<<<<<<< HEAD
 ## Exercises: Level 1
 
 1. What is module
@@ -775,7 +768,6 @@ The boilerplate code can be found [here](../03/../03_Day_Setting_Up/30-days-of-r
 ![User Card](../images/user_card_design_jsx.png)
 
 3.  Use h1, p, input and button HTML element to create the following design using JSX
-=======
 1. Import and render the following images
    ![Front end](../images/frontend_technologies.png)
 
@@ -784,13 +776,9 @@ The boilerplate code can be found [here](../03/../03_Day_Setting_Up/30-days-of-r
 ![User Card](../images/user_card_design_jsx.png)
 
 1.  Use h1, p, input and button HTML element to create the following design using JSX
->>>>>>> 6f350ce (Day_6)
 
 ![News Letter](../images/news_letter_design.png)
 
 🎉 CONGRATULATIONS ! 🎉
-<<<<<<< HEAD
 
-=======
->>>>>>> 6f350ce (Day_6)
 [<< Day 2](../02_Day_Introduction_to_React/02_introduction_to_react.md) | [Day 4 >>](../04_Day_Components/04_components.md)
