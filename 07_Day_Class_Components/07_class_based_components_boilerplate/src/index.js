@@ -2,6 +2,7 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
+<<<<<<< HEAD
 import asabenehImage from './images/asabeneh.jpg'
 
 // Fuction to show month date year
@@ -35,6 +36,8 @@ const buttonStyles = {
   fontSize: 18,
   color: 'white',
 }
+=======
+>>>>>>> 7aaab6b (day_7)
 
 // class based component
 class Header extends React.Component {
@@ -95,6 +98,7 @@ class Main extends React.Component {
           <ul>
             <TechList techs={this.props.techs} />
           </ul>
+<<<<<<< HEAD
           <UserCard user={this.props.user} />
           <Button
             text='Greet People'
@@ -106,6 +110,8 @@ class Main extends React.Component {
             onClick={this.props.handleTime}
             style={buttonStyles}
           />
+=======
+>>>>>>> 7aaab6b (day_7)
         </div>
       </main>
     )
@@ -130,6 +136,7 @@ class Footer extends React.Component {
 }
 
 class App extends React.Component {
+<<<<<<< HEAD
   showDate = (time) => {
     const months = [
       'January',
@@ -157,6 +164,8 @@ class App extends React.Component {
   greetPeople = () => {
     alert('Welcome to 30 Days Of React Challenge, 2020')
   }
+=======
+>>>>>>> 7aaab6b (day_7)
   render() {
     const data = {
       welcome: 'Welcome to 30 Days Of React',
@@ -170,6 +179,7 @@ class App extends React.Component {
     }
     const techs = ['HTML', 'CSS', 'JavaScript']
 
+<<<<<<< HEAD
     // copying the author from data object to user variable using spread operator
     const user = { ...data.author, image: asabenehImage }
 
@@ -183,6 +193,12 @@ class App extends React.Component {
           greetPeople={this.greetPeople}
         />
 
+=======
+    return (
+      <div className='app'>
+        <Header data={data} />
+        <Main techs={techs} />
+>>>>>>> 7aaab6b (day_7)
         <Footer date={new Date()} />
       </div>
     )
@@ -191,4 +207,7 @@ class App extends React.Component {
 
 const rootElement = document.getElementById('root')
 ReactDOM.render(<App />, rootElement)
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7aaab6b (day_7)

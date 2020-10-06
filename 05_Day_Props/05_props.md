@@ -17,6 +17,7 @@
 <<<<<<< HEAD
 
 [<< Day 4](../04_Day_Component/04_components.md) | [Day 6 >>](../06_Day_Map_List_Keys/06_map_list_keys.md)
+<<<<<<< HEAD
 =======
 </div>
 =======
@@ -28,6 +29,8 @@
 =======
 [<< Day 4](../04_Day_Component/04_components.md) | [Day 6 >>]()
 >>>>>>> 2c4d226 (Day_5)
+=======
+>>>>>>> 7aaab6b (day_7)
 
 ![30 Days of React banner](../images/30_days_of_react_banner_day_5.jpg)
 
@@ -1589,6 +1592,7 @@ We will cover propTypes in detail in other section.
 <<<<<<< HEAD
 
 [<< Day 4](../04_Day_Component/04_components.md) | [Day 6 >>](../06_Day_Map_List_Keys/06_map_list_keys.md)
+<<<<<<< HEAD
 =======
 [<< Day 4](../30-Days-Of-React/04_Day_Component/04_components.md) | [Day 6 >>]()
 >>>>>>> a95ca32 (Day_5)
@@ -1600,3 +1604,5 @@ We will cover propTypes in detail in other section.
 =======
 [<< Day 4](../04_Day_Component/04_components.md) | [ >>](../06_Day_Map_List_Keys/05_map_list_keys.md)
 >>>>>>> f6a8709 (minor fixes)
+=======
+>>>>>>> 7aaab6b (day_7)
