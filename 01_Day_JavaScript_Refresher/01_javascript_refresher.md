@@ -4110,7 +4110,10 @@ class Person {
     return fullName
   }
   get getScore() {
+<<<<<<< HEAD
   get getscore() {
+=======
+>>>>>>> c735229 (minor fixes)
     return this.score
   }
   get getSkills() {
