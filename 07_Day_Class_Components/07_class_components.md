@@ -15,6 +15,7 @@
 </div>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 [<< Day 6](../06_Day_Map_List_Keys/06_map_list_keys.md) | [Day 8 >>](../07_Day_Class_Components/07_class_components.md)
 
 ![30 Days of React banner](../images/30_days_of_react_banner_day_7.jpg)
@@ -24,6 +25,9 @@
   - [Methods in Class based component](#methods-in-class-based-component)
 =======
 [<< Day 6](../06_Day_Map_List_Keys/05_map_list_keys.md) | [Day 8 >>](../07_Day_Class_Components/07_class_components.md)
+=======
+[<< Day 6](../06_Day_Map_List_Keys/06_map_list_keys.md) | [Day 8 >>](../07_Day_Class_Components/07_class_components.md)
+>>>>>>> 2718702 (day_7)
 
 ![30 Days of React banner](../images/30_days_of_react_banner_day_6.jpg)
 
@@ -852,7 +856,11 @@ Learn more about class based component by changing previous days exercises to cl
 🎉 CONGRATULATIONS ! 🎉
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 [<< Day 6](../06_Day_Map_List_Keys/06_map_list_keys.md) | [Day 8 >>](../07_Day_Class_Components/07_class_components.md)
 =======
 [<< Day 6](../06_Day_Map_List_Keys/05_map_list_keys.md) | [Day 8 >>](../07_Day_Class_Components/07_class_components.md)
 >>>>>>> 3929034 (Day_7 has been published)
+=======
+[<< Day 6](../06_Day_Map_List_Keys/06_map_list_keys.md) | [Day 8 >>](../07_Day_Class_Components/07_class_components.md)
+>>>>>>> 2718702 (day_7)
