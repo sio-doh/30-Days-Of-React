@@ -14,6 +14,7 @@
 
 </div>
 
+<<<<<<< HEAD
 [<< Day 6](../06_Day_Map_List_Keys/06_map_list_keys.md) | [Day 8 >>](../07_Day_Class_Components/07_class_components.md)
 
 ![30 Days of React banner](../images/30_days_of_react_banner_day_7.jpg)
@@ -21,6 +22,14 @@
 - [Class Components](#class-components)
   - [Accessing props in Class components](#accessing-props-in-class-components)
   - [Methods in Class based component](#methods-in-class-based-component)
+=======
+[<< Day 6](../06_Day_Map_List_Keys/05_map_list_keys.md) | [Day 8 >>](../07_Day_Class_Components/07_class_components.md)
+
+![30 Days of React banner](../images/30_days_of_react_banner_day_6.jpg)
+
+- [Class Components](#class-components)
+  - [Accessing props in Class components](#accessing-props-in-class-components)
+>>>>>>> 3929034 (Day_7 has been published)
 - [Exercises](#exercises)
   - [Exercises: Level 1](#exercises-level-1)
   - [Exercises: Level 2](#exercises-level-2)
@@ -577,6 +586,7 @@ const rootElement = document.getElementById('root')
 ReactDOM.render(<App />, rootElement)
 ```
 
+<<<<<<< HEAD
 ## Methods in Class based component
 
 We access methods in class based component. Most of the time, we write different methods on the parent component and we pass them to child components. Let's see the implementation.
@@ -816,6 +826,9 @@ ReactDOM.render(<App />, rootElement)
 
 Most of the time the container or the parent component can be written as class component and others as functional or presentational components. Data usually flows from parent components to child component and it is unidirectional. However, the latest version of react can allow us to write every component in our application only with functional components. This was impossible in previous versions.
 In next section, we will cover state which is the heart of React. State allows React component to rerender when whenever there is a change in state.
+=======
+Most of the time the container or the parent component can be written as class component and others as functional or presentational components. Data usually flows from parent components to child component and it is unidirectional. However, the latest version of react can allow us to write every component in our application only with functional components. This was impossible in previous versions.
+>>>>>>> 3929034 (Day_7 has been published)
 
 # Exercises
 
@@ -835,4 +848,8 @@ Learn more about class based component by changing previous days exercises to cl
 
 🎉 CONGRATULATIONS ! 🎉
 
+<<<<<<< HEAD
 [<< Day 6](../06_Day_Map_List_Keys/06_map_list_keys.md) | [Day 8 >>](../07_Day_Class_Components/07_class_components.md)
+=======
+[<< Day 6](../06_Day_Map_List_Keys/05_map_list_keys.md) | [Day 8 >>](../07_Day_Class_Components/07_class_components.md)
+>>>>>>> 3929034 (Day_7 has been published)

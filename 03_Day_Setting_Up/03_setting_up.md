@@ -760,6 +760,7 @@ The boilerplate code can be found [here](../03/../03_Day_Setting_Up/30-days-of-r
 
 ## Exercises: Level 2
 
+<<<<<<< HEAD
 1. Import and render the following images
    ![Front end](../images/frontend_technologies.png)
 
@@ -768,14 +769,16 @@ The boilerplate code can be found [here](../03/../03_Day_Setting_Up/30-days-of-r
 ![User Card](../images/user_card_design_jsx.png)
 
 3.  Use h1, p, input and button HTML element to create the following design using JSX
+=======
+>>>>>>> 3929034 (Day_7 has been published)
 1. Import and render the following images
    ![Front end](../images/frontend_technologies.png)
 
-1.Design the following user card.
+2.Design the following user card.
 
 ![User Card](../images/user_card_design_jsx.png)
 
-1.  Use h1, p, input and button HTML element to create the following design using JSX
+3.  Use h1, p, input and button HTML element to create the following design using JSX
 
 ![News Letter](../images/news_letter_design.png)
 

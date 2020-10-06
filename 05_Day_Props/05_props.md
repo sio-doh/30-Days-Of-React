@@ -47,10 +47,15 @@
   - [defaultProps](#defaultprops)
 - [Exercises: Components and Props](#exercises-components-and-props)
 <<<<<<< HEAD
+<<<<<<< HEAD
   - [Exercises: Level 1](#exercises-level-1)
   - [Exercises: Level 2](#exercises-level-2)
 =======
 >>>>>>> a95ca32 (Day_5)
+=======
+  - [Exercises: Level 1](#exercises-level-1)
+  - [Exercises: Level 2](#exercises-level-2)
+>>>>>>> 3929034 (Day_7 has been published)
 
 # Props
 
@@ -1544,6 +1549,9 @@ We will cover propTypes in detail in other section.
 # Exercises: Components and Props
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3929034 (Day_7 has been published)
 ## Exercises: Level 1
 
 1. What is props in a React component ?
@@ -1556,10 +1564,13 @@ We will cover propTypes in detail in other section.
 
 1. Create functional components and display the following images
    ![Front end](../images/frontend_technologies.png)
+<<<<<<< HEAD
 =======
 1.Create functional components and display the following images
 ![Front end](../images/frontend_technologies.png)
 >>>>>>> a95ca32 (Day_5)
+=======
+>>>>>>> 3929034 (Day_7 has been published)
 
 2.Use functional component to design the following user card.
 

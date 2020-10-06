@@ -37,10 +37,15 @@
     - [Further on Functional components](#further-on-functional-components)
 - [Exercises: Components](#exercises-components)
 <<<<<<< HEAD
+<<<<<<< HEAD
   - [Exercises: Level 1](#exercises-level-1)
   - [Exercises: Level 2](#exercises-level-2)
 =======
 >>>>>>> 97dc3fc (Day_4)
+=======
+  - [Exercises: Level 1](#exercises-level-1)
+  - [Exercises: Level 2](#exercises-level-2)
+>>>>>>> 3929034 (Day_7 has been published)
 
 # Components
 
@@ -569,6 +574,9 @@ ReactDOM.render(<HexaColor />, rootElement)
 # Exercises: Components
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3929034 (Day_7 has been published)
 ## Exercises: Level 1
 
 1. What is a React Component ?
@@ -584,10 +592,13 @@ ReactDOM.render(<HexaColor />, rootElement)
 
 1. Create functional components and display the following images
    ![Front end](../images/frontend_technologies.png)
+<<<<<<< HEAD
 =======
 1.Create functional components and display the following images
 ![Front end](../images/frontend_technologies.png)
 >>>>>>> 97dc3fc (Day_4)
+=======
+>>>>>>> 3929034 (Day_7 has been published)
 
 2.Use functional component to design the following user card.
 
