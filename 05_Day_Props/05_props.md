@@ -1583,5 +1583,9 @@ We will cover propTypes in detail in other section.
 >>>>>>> a95ca32 (Day_5)
 =======
 
+<<<<<<< HEAD
 [<< Day 4](../04_Day_Component/04_components.md) | [Day 6 >>]()
 >>>>>>> 2c4d226 (Day_5)
+=======
+[<< Day 4](../04_Day_Component/04_components.md) | [ >>](../06_Day_Map_List_Keys/05_map_list_keys.md)
+>>>>>>> f6a8709 (minor fixes)

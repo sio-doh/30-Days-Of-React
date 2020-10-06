@@ -13,12 +13,16 @@
 <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
 <small> October, 2020</small>
 </sub>
+<<<<<<< HEAD
   <sub>
     Author: <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
     <small> October, 2020</small>
   </sub>
 </div>
+=======
+>>>>>>> f6a8709 (minor fixes)
 
+</div>
 
 [<< Day 0](../readMe.md) | [Day 2 >>](../02_Day_Introduction_to_React/02_introduction_to_react.md)
 
@@ -2792,7 +2796,10 @@ const sumArray = arr => {
     sum += element
   }
   arr.forEach(callback)
+<<<<<<< HEAD
   numbers.forEach(callback)
+=======
+>>>>>>> f6a8709 (minor fixes)
   return sum
 
 }
@@ -2801,7 +2808,10 @@ console.log(sumArray(numbers))
 
 ```sh
 10
+<<<<<<< HEAD
 15
+=======
+>>>>>>> f6a8709 (minor fixes)
 ```
 
 The above example can be simplified as follows:
@@ -2812,7 +2822,10 @@ const numbers = [1, 2, 3, 4]
 const sumArray = arr => {
   let sum = 0
   arr.forEach(function(element) {
+<<<<<<< HEAD
   numbers.forEach(function(element) {
+=======
+>>>>>>> f6a8709 (minor fixes)
     sum += element
   })
   return sum
@@ -2823,7 +2836,10 @@ console.log(sumArray(numbers))
 
 ```sh
 10
+<<<<<<< HEAD
 15
+=======
+>>>>>>> f6a8709 (minor fixes)
 ```
 
 #### setting time
