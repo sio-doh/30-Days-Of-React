@@ -14,10 +14,13 @@
 
 </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 [<< Day 4](../04_Day_Component/04_components.md) | [Day 6 >>](../06_Day_Map_List_Keys/06_map_list_keys.md)
 =======
 </div>
+=======
+>>>>>>> 2d39068 (ns)
 
 <<<<<<< HEAD
 [<< Day 4](../30-Days-Of-React/04_Day_Component/04_components.md) | [Day 6 >>]()
