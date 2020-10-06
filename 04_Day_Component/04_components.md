@@ -22,7 +22,7 @@
 
 [<< Day 3](../30-Days-Of-React/03_Day_Setting_Up/03_day_setting_up.md) | [Day 5 >>]()
 
-[<< Day 3](../30-Days-Of-React/03_Day_Setting_Up/03_day_setting_up.md) | [Day 5 >>](./05_Day_Props/05_props.md)
+[<< Day 3](../30-Days-Of-React/03_Day_Setting_Up/03_setting_up.md) | [Day 5 >>](./05_Day_Props/05_props.md)
 
 ![30 Days of React banner](../images/30_days_of_react_banner_day_4.jpg)
 
@@ -331,10 +331,14 @@ const App = () => (
 
 const rootElement = document.getElementById('root')
 <<<<<<< HEAD
+<<<<<<< HEAD
 // we render the App component using the ReactDOM package
 =======
 // we render the JSX element using the ReactDOM package
 >>>>>>> 97dc3fc (Day_4)
+=======
+// we render the App component using the ReactDOM package
+>>>>>>> 6f350ce (Day_6)
 ReactDOM.render(<App />, rootElement)
 ```
 
@@ -375,10 +379,14 @@ const header = () => {
 }
 const rootElement = document.getElementById('root')
 <<<<<<< HEAD
+<<<<<<< HEAD
 // we render the App component using the ReactDOM package
 =======
 // we render the JSX element using the ReactDOM package
 >>>>>>> 97dc3fc (Day_4)
+=======
+// we render the App component using the ReactDOM package
+>>>>>>> 6f350ce (Day_6)
 ReactDOM.render(<Header />, rootElement)
 ```
 
@@ -487,10 +495,14 @@ const app = () => (
 )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // we render the App component using the ReactDOM package
 =======
 // we render the JSX element using the ReactDOM package
 >>>>>>> 97dc3fc (Day_4)
+=======
+// we render the App component using the ReactDOM package
+>>>>>>> 6f350ce (Day_6)
 ReactDOM.render(<App />, rootElement)
 ```
 
@@ -539,6 +551,7 @@ const HexaColor = () => <div>{hexaColor()}</div>
 
 const rootElement = document.getElementById('root')
 // we render the App component using the ReactDOM package
+<<<<<<< HEAD
 =======
 const HexaColor = () => <div>{hexaColor()}</dv>
 =======
@@ -548,6 +561,8 @@ const HexaColor = () => <div>{hexaColor()}</div>
 const rootElement = document.getElementById('root')
 // we render the JSX element using the ReactDOM package
 >>>>>>> 97dc3fc (Day_4)
+=======
+>>>>>>> 6f350ce (Day_6)
 ReactDOM.render(<HexaColor />, rootElement)
 ```
 
@@ -606,6 +621,7 @@ ReactDOM.render(<HexaColor />, rootElement)
 <<<<<<< HEAD
 
 [<< Day 3](../30-Days-Of-React/03_Day_Setting_Up/03_setting_up.md) | [Day 5 >>](./05_Day_Props/05_props.md)
+<<<<<<< HEAD
 =======
 [<< Day 3](../30-Days-Of-React/03_Day_Setting_Up/03_day_setting_up.md) | [Day 5 >>]()
 >>>>>>> 97dc3fc (Day_4)
@@ -615,3 +631,5 @@ ReactDOM.render(<HexaColor />, rootElement)
 >>>>>>> e730c07 (minor fixes)
 [<< Day 3](../30-Days-Of-React/03_Day_Setting_Up/03_day_setting_up.md) | [Day 5 >>](./05_Day_Props/05_props.md)
 >>>>>>> b9e074d (some changes)
+=======
+>>>>>>> 6f350ce (Day_6)

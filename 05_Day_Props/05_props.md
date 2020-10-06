@@ -257,6 +257,9 @@ const App = () => {
 
 const rootElement = document.getElementById('root')
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6f350ce (Day_6)
 
 ReactDOM.render(<App />, rootElement)
 ```
@@ -337,9 +340,12 @@ const App = () => (
 
 const rootElement = document.getElementById('root')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // we render the JSX element using the ReactDOM package
 >>>>>>> a95ca32 (Day_5)
+=======
+>>>>>>> 6f350ce (Day_6)
 ReactDOM.render(<App />, rootElement)
 ```
 
@@ -412,9 +418,12 @@ const App = () => {
 }
 const rootElement = document.getElementById('root')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // we render the JSX element using the ReactDOM package
 >>>>>>> a95ca32 (Day_5)
+=======
+>>>>>>> 6f350ce (Day_6)
 ReactDOM.render(<App />, rootElement)
 ```
 
@@ -449,9 +458,12 @@ const App = () => {
 }
 const rootElement = document.getElementById('root')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // we render the JSX element using the ReactDOM package
 >>>>>>> a95ca32 (Day_5)
+=======
+>>>>>>> 6f350ce (Day_6)
 ReactDOM.render(<App />, rootElement)
 ```
 
@@ -494,9 +506,12 @@ const App = () => {
 }
 const rootElement = document.getElementById('root')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // we render the JSX element using the ReactDOM package
 >>>>>>> a95ca32 (Day_5)
+=======
+>>>>>>> 6f350ce (Day_6)
 ReactDOM.render(<App />, rootElement)
 ```
 
@@ -661,6 +676,9 @@ const App = () => {
 }
 const rootElement = document.getElementById('root')
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6f350ce (Day_6)
 ReactDOM.render(<App />, rootElement)
 ```
 
@@ -840,9 +858,12 @@ const App = () => {
 }
 const rootElement = document.getElementById('root')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // we render the JSX element using the ReactDOM package
 >>>>>>> a95ca32 (Day_5)
+=======
+>>>>>>> 6f350ce (Day_6)
 ReactDOM.render(<App />, rootElement)
 ```
 
@@ -918,9 +939,12 @@ const App = () => {
 }
 const rootElement = document.getElementById('root')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // we render the JSX element using the ReactDOM package
 >>>>>>> a95ca32 (Day_5)
+=======
+>>>>>>> 6f350ce (Day_6)
 ReactDOM.render(<App />, rootElement)
 ```
 
@@ -1075,9 +1099,12 @@ const App = () => {
 }
 const rootElement = document.getElementById('root')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // we render the JSX element using the ReactDOM package
 >>>>>>> a95ca32 (Day_5)
+=======
+>>>>>>> 6f350ce (Day_6)
 ReactDOM.render(<App />, rootElement)
 ```
 
@@ -1155,9 +1182,12 @@ const App = () => {
 }
 const rootElement = document.getElementById('root')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // we render the JSX element using the ReactDOM package
 >>>>>>> a95ca32 (Day_5)
+=======
+>>>>>>> 6f350ce (Day_6)
 ReactDOM.render(<App />, rootElement)
 ```
 
@@ -1260,9 +1290,13 @@ const Button = ({ text, onClick, style }) => (
 )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // CSS styles in JavaScript Object
 =======
 >>>>>>> 02516c4 (day_5 has been cleaned)
+=======
+// CSS styles in JavaScript Object
+>>>>>>> 6f350ce (Day_6)
 const buttonStyles = {
   backgroundColor: '#61dbfb',
   padding: 10,
@@ -1397,8 +1431,11 @@ const App = () => {
 }
 const rootElement = document.getElementById('root')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // we render the JSX element using the ReactDOM package
+=======
+>>>>>>> 6f350ce (Day_6)
 ReactDOM.render(<App />, rootElement)
 ```
 
