@@ -24,6 +24,7 @@
 - [Class Components](#class-components)
   - [Accessing props in Class components](#accessing-props-in-class-components)
   - [Methods in Class based component](#methods-in-class-based-component)
+<<<<<<< HEAD
 =======
 [<< Day 6](../06_Day_Map_List_Keys/05_map_list_keys.md) | [Day 8 >>](../07_Day_Class_Components/07_class_components.md)
 =======
@@ -37,6 +38,8 @@
 - [Class Components](#class-components)
   - [Accessing props in Class components](#accessing-props-in-class-components)
 >>>>>>> 3929034 (Day_7 has been published)
+=======
+>>>>>>> c8014c3 (day_7)
 - [Exercises](#exercises)
   - [Exercises: Level 1](#exercises-level-1)
   - [Exercises: Level 2](#exercises-level-2)
@@ -594,6 +597,9 @@ ReactDOM.render(<App />, rootElement)
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c8014c3 (day_7)
 ## Methods in Class based component
 
 We access methods in class based component. Most of the time, we write different methods on the parent component and we pass them to child components. Let's see the implementation.
