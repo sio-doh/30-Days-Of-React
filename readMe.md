@@ -30,8 +30,13 @@
 |05|[Props](./05_Day_Props/05_props.md)|
 |06|[List, Map and Keys](../06_Day_Map_List_Keys/06_map_list_keys.md)|
 |07|[Class Components](./07_Day_Class_Components/07_class_components.md)|
+<<<<<<< HEAD
 |08|[States 😞](./08_Day_States/08_states.md)|
 |09|[Conditional Rendering 😞]()|
+=======
+|08|[States](./08_Day_States/08_states.md)|
+|09|[Conditional Rendering](./09_Day_Conditional_Rendering/09_conditional_rendering.md)|
+>>>>>>> fa83c91 (Day_9 has been published)
 |10|[Events 😞]()|
 |11|[Forms 😞]()|
 |13|[Controlled and Uncondrolled Component 😞]()|
