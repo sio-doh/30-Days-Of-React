@@ -75,6 +75,7 @@ In the previous day, we saw how to inject different data types to React componen
 
 Props is a special keyword in React that stands for properties and is being used to pass data from one component to another and mostly from parent component to child component. We can say props is a data carrier or a means to transport data.
 
+<<<<<<< HEAD
 I hope you are familiar with JavaScript function. Most of the time, functions with parameters are smart and they can take dynamic data likewise props is a way we pass data or parameter to a component. Let's see the difference between a function and a component.
 =======
 In the previous day, we saw how to inject dynamic data types to React component JSX. Now, let us see how we use dynamic data in component and also how to pass data as props.
@@ -92,6 +93,9 @@ I hope you are familiar with JavaScript function. Most of the time, functions wi
 =======
 I hope you are familiar with JavaScript function. Most of the time, functions with parameters are smart and they can take dynamic data likewise props is a way we pass data or parameter to a component. Let's see the difference between a function and a component.
 >>>>>>> 37d04cb (cleaning day_5)
+=======
+I hope you are familiar with the JavaScript function. Most of the time, functions with parameters are smart and they can take dynamic data likewise props is a way we pass data or parameter to a component. Let's see the difference between a function and a component.
+>>>>>>> 5cfcdee (Addressing some minor typos)
 
 ```js
 // function syntax
@@ -130,7 +134,7 @@ const User = (props) => {
 <User firstName = 'Asabeneh', lastName='Yetayeh' country = 'Finland' />
 ```
 
-In the previous section, we injected data as follow and today we will change these data to a props.
+In the previous section, we injected data as follows and today we will change these data to props.
 
 ```js
 const welcome = 'Welcome to 30 Days Of React'
@@ -160,7 +164,11 @@ const Header = () => (
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Instead of injecting data we can also pass the data as a props. React props is similar to parameters in function.
+=======
+Instead of injecting data we can also pass the data as a prop. React props are similar to parameters in functions.
+>>>>>>> 5cfcdee (Addressing some minor typos)
 
 ## Props object
 
@@ -250,7 +258,7 @@ const Header = (props) => {
   return (
     <header>
       <div className='header-wrapper'>
-        <h1>{welcome}</h1>
+        <h1>{props.welcome}</h1>
       </div>
     </header>
   )
@@ -528,7 +536,7 @@ ReactDOM.render(<App />, rootElement)
 
 ### Array props type
 
-In programming arrays and objects are the most frequent use data structure to solve different problems and store data in more structured way. Therefore, we encounter data in the form of array quite often. Let's pass an array props to a component
+In programming arrays and objects are the most frequently used data structure to solve different problems and store data in a more structured way. Therefore, we encounter data in the form of an array quite often. Let's pass an array as props to a component
 
 ```js
 import React from 'react'
@@ -546,7 +554,7 @@ const rootElement = document.getElementById('root')
 ReactDOM.render(<App />, rootElement)
 ```
 
-If you see the result on the browser, the skills elements needs formatting. Therefore before we render it should have some elements between each skills. To modify the array and to add a li element we can use map method. You should be very familiar with the functional programming map, filter and reduce to feel good at React if not please back to day 1 JavaScript refresher. Let's apply map to modify the array.
+If you see the result on the browser, the skills elements needs formatting. Therefore before we render, it should have some elements between each skill. To modify the array and to add a li element we can use map method. You should be very familiar with the functional programming map, filter and reduce to feel good at React if not please go back to day 1 JavaScript refresher. Let's apply map to modify the array.
 
 ```js
 import React from 'react'
@@ -569,12 +577,12 @@ const rootElement = document.getElementById('root')
 ReactDOM.render(<App />, rootElement)
 ```
 
-We will go in depth about list and map in an other sections. Now, let's see an object as a props.
+We will go in-depth about list and map in other sections. Now, let's see an object as a props.
 
 ### Object props type
 
 We may pass an object as props to a React component. Let's see an example.
-We can change the previous Header props to object. For the time being let's change few properties for better understanding.
+We can change the previous Header props to object. For the time being let's change a few properties for better understanding.
 
 ```js
 import React from 'react'
@@ -613,7 +621,7 @@ const rootElement = document.getElementById('root')
 ReactDOM.render(<App />, rootElement)
 ```
 
-Now, let's change all the previous Header properties to an objects.
+Now, let's change all the previous Header properties to an object.
 
 ```js
 import React from 'react'
@@ -693,6 +701,7 @@ const rootElement = document.getElementById('root')
 ReactDOM.render(<App />, rootElement)
 ```
 
+<<<<<<< HEAD
 When we use object as props we usually destructure the data to access the values. Destructuring makes our code easy to read. We will see soon destructuring of props but before that let's see function as a props for a React component.
 =======
 // we render the JSX element using the ReactDOM package
@@ -705,10 +714,13 @@ When we use object as props we usually destructure the data to access the values
 =======
 When we use object as props we usually destructure the data to access the values. Destructuring makes our code easy to read. We will see soon destructuring of props but before that let's see function as a props for a React component.
 >>>>>>> 37d04cb (cleaning day_5)
+=======
+When we use an object as "props" we usually destructure the data to access the values. Destructuring makes our code easy to read. We will soon see the destructuring of "props" but before that let's see function as "props" for a React component.
+>>>>>>> 5cfcdee (Addressing some minor typos)
 
 ### Function prop types
 
-We can pass function as prop type to a React component. Let's see examples
+We can pass a function as "props" type to a React component. Let's see some examples
 
 ```js
 import React from 'react'
@@ -738,7 +750,7 @@ const rootElement = document.getElementById('root')
 ReactDOM.render(<App />, rootElement)
 ```
 
-Even we can write function inside the curly bracket
+Even we can write a function inside the curly bracket
 
 ```js
 import React from 'react'
@@ -762,7 +774,7 @@ const rootElement = document.getElementById('root')
 ReactDOM.render(<App />, rootElement)
 ```
 
-Now, lets implement different functions as a props
+Now, lets implement different functions as "props"
 
 ```js
 import React from 'react'
@@ -878,9 +890,9 @@ const rootElement = document.getElementById('root')
 ReactDOM.render(<App />, rootElement)
 ```
 
-In the above example, onClick is a props to hold the greetPeople functions. HTML has onclick, onmouseover, onhover, onkeypress and etc event handlers. In React, these handlers are in camelCase. For instance onClick, onMouseOver, onKeyPress etc. We will cover events in React in detail in other section.
+In the above example, onClick is a "props" to hold the greetPeople function. HTML has onclick, onmouseover, onhover, onkeypress and etc event handlers. In React, these handlers are in camelCase. For instance onClick, onMouseOver, onKeyPress etc. We will cover events in React in detail in other section.
 
-Let's see another more function as props to give a clear understanding how to handle function as a props in React component.
+Let's see some more functions as props to give a clear understanding how to handle function as "props" in a React component.
 
 This component shows month, date and year as an alert box.
 
@@ -961,7 +973,7 @@ ReactDOM.render(<App />, rootElement)
 
 ## Destructuring props
 
-By now, I believe you are a JavaScript ninja and you know about destructing arrays and object. Destructuring code to some extent makes easy to read. Let us destructure the props in Header component. Everything we passed as a props is stored in props object. Therefore, props is an object and we can destructure the properties. Let's destructure some of the props we wrote in object props example. We can destructure in many ways:
+By now, I believe you are a JavaScript ninja and you know about destructing arrays and objects. Destructuring code to some extent makes easy to read. Let us destructure the props in Header component. Everything we passed as  props is stored in props object. Therefore, "props" is an object and we can destructure the properties. Let's destructure some of the props we wrote in object props example. We can destructure in many ways:
 
 1. Step by step destructuring
 
@@ -1544,7 +1556,7 @@ ReactDOM.render(<App />, rootElement)
 >>>>>>> 02516c4 (day_5 has been cleaned)
 ## propTypes
 
-The propTypes package help as to assign the data types of the props we passed to a component.
+The propTypes package helps us to assign the data types of the props we passed to a component.
 
 ## defaultProps
 
@@ -1561,14 +1573,14 @@ We will cover propTypes in detail in other section.
 ## Exercises: Level 1
 
 1. What is props in a React component ?
-2. How do you access props in React component ?
-3. What data types can we pass as a props to components ?
-4. What is a propTypes
-5. What is a default propTypes
+2. How do you access props in a React component ?
+3. What data types can we pass as props to  components ?
+4. What is a propTypes?
+5. What is a default propTypes?
 
 ## Exercises: Level 2
 
-1. Create functional components and display the following images
+1. Create functional component and display the following images
    ![Front end](../images/frontend_technologies.png)
 <<<<<<< HEAD
 =======
