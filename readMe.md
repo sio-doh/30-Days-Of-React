@@ -36,10 +36,17 @@
 =======
 |08|[States](./08_Day_States/08_states.md)|
 |09|[Conditional Rendering](./09_Day_Conditional_Rendering/09_conditional_rendering.md)|
+<<<<<<< HEAD
 >>>>>>> fa83c91 (Day_9 has been published)
 |10|[Events 😞]()|
 |11|[Forms 😞]()|
+=======
+|10|[React Project Folder Structure](./10_React_Project_Folder_Structure/10_react_project_folder_structure.md)|
+|11|[Events 😞]()|
+|12|[Forms 😞]()|
+>>>>>>> ba2da20 (Day_10 has been published)
 |13|[Controlled and Uncondrolled Component 😞]()|
+|13|[Component Life Cycles😞]()|
 
 
 🧡🧡🧡 HAPPY CODING 🧡🧡🧡<div>
