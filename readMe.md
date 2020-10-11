@@ -270,7 +270,7 @@ I will use conversational English and less jargons to write this challenge. The 
 >>>>>>> c735229 (minor fixes)
 If you are good at arrays, loops, functions, objects, functional programming, destructuring and spreading and class then you will be able to follow the challenge properly. Otherwise, I strongly recommend you to check [30DaysOfJavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript).
 
-Before you dive into this course, you may check the [review] of 30 Days Of React. 
+Before you dive into this course, you may check the [review](https://t.me/thirtydaysofreact/992) of 30 Days Of React. 
 
 ## Requirements
 
