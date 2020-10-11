@@ -43,8 +43,12 @@
 =======
 |10|[React Project Folder Structure](./10_React_Project_Folder_Structure/10_react_project_folder_structure.md)|
 |11|[Events](./11_Day_Events/11_events.md)|
+<<<<<<< HEAD
 |12|[Forms 😞]()|
 >>>>>>> ba2da20 (Day_10 has been published)
+=======
+|12|[Forms](./12_Day_Forms/11_forms.md)|
+>>>>>>> 1e26e7f (Day_12 has been added)
 |13|[Controlled and Uncondrolled Component 😞]()|
 |13|[Component Life Cycles😞]()|
 
@@ -57,6 +61,8 @@
 Support [*Asabeneh*](https://www.patreon.com/asabeneh?fan_landing=true) to create more educational materials</small> 
 
 [<img src = './images/become_patreon.png' alt='become-asabeneh-patreon' title='click' />](https://www.patreon.com/asabeneh?fan_landing=true)  
+
+
 
 </div>
 
