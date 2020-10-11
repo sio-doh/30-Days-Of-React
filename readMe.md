@@ -44,11 +44,15 @@
 |10|[React Project Folder Structure](./10_React_Project_Folder_Structure/10_react_project_folder_structure.md)|
 |11|[Events](./11_Day_Events/11_events.md)|
 <<<<<<< HEAD
+<<<<<<< HEAD
 |12|[Forms 😞]()|
 >>>>>>> ba2da20 (Day_10 has been published)
 =======
 |12|[Forms](./12_Day_Forms/11_forms.md)|
 >>>>>>> 1e26e7f (Day_12 has been added)
+=======
+|12|[Forms](./12_Day_Forms/12_forms.md)|
+>>>>>>> a538ce7 (Day_12 has been added)
 |13|[Controlled and Uncondrolled Component 😞]()|
 |13|[Component Life Cycles😞]()|
 
