@@ -52,9 +52,16 @@
 >>>>>>> 1e26e7f (Day_12 has been added)
 =======
 |12|[Forms](./12_Day_Forms/12_forms.md)|
+<<<<<<< HEAD
 >>>>>>> a538ce7 (Day_12 has been added)
 |13|[Controlled and Uncondrolled Component 😞]()|
 |13|[Component Life Cycles😞]()|
+=======
+|13|[Controlled and Uncontrolled Component](./13_Day_Controlled_Versus_Uncontrolled_Input/13_uncontrolled_input.md)|
+|14|[Component Life Cycles😞]()|
+|15|[Styles in React😞]()|
+
+>>>>>>> f49f726 (Day_13 has been published)
 
 🧡🧡🧡 HAPPY CODING 🧡🧡🧡
 <div>
