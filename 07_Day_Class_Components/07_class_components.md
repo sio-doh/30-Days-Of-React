@@ -16,7 +16,11 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [<< Day 6](../06_Day_Map_List_Keys/06_map_list_keys.md) | [Day 8 >>](../07_Day_Class_Components/07_class_components.md)
+=======
+[<< Day 6](../06_Day_Map_List_Keys/06_map_list_keys.md) | [Day 8 >>](../08_Day_States/08_states.md)
+>>>>>>> e25416d (polishing)
 
 ![30 Days of React banner](../images/30_days_of_react_banner_day_7.jpg)
 <<<<<<< HEAD
@@ -43,6 +47,7 @@
 - [Exercises](#exercises)
   - [Exercises: Level 1](#exercises-level-1)
   - [Exercises: Level 2](#exercises-level-2)
+  - [Exercises: Level 3](#exercises-level-3)
 
 # Class Components
 
@@ -862,8 +867,11 @@ Most of the time the container or the parent component can be written as class c
 
 Learn more about class based component by changing previous days exercises to class based components
 
+## Exercises: Level 3
+
 🎉 CONGRATULATIONS ! 🎉
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 [<< Day 6](../06_Day_Map_List_Keys/06_map_list_keys.md) | [Day 8 >>](../07_Day_Class_Components/07_class_components.md)
@@ -873,3 +881,6 @@ Learn more about class based component by changing previous days exercises to cl
 =======
 [<< Day 6](../06_Day_Map_List_Keys/06_map_list_keys.md) | [Day 8 >>](../07_Day_Class_Components/07_class_components.md)
 >>>>>>> 2718702 (day_7)
+=======
+[<< Day 6](../06_Day_Map_List_Keys/06_map_list_keys.md) | [Day 8 >>](../08_Day_States/08_states.md)
+>>>>>>> e25416d (polishing)
