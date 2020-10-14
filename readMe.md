@@ -58,7 +58,7 @@
 |13|[Component Life Cycles😞]()|
 =======
 |13|[Controlled and Uncontrolled Component](./13_Day_Controlled_Versus_Uncontrolled_Input/13_uncontrolled_input.md)|
-|14|[Component Life Cycles😞]()|
+|14|[Component Life Cycles😞](./14_Day_Component_Life_Cycles/14_component_life_cycles.md)|
 |15|[Styles in React😞]()|
 
 >>>>>>> f49f726 (Day_13 has been published)
