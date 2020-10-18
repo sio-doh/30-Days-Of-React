@@ -859,9 +859,11 @@ Most of the time the container or the parent component can be written as class c
 2. What is inheritance and how do you make a child from a parent class?
 3. What is class based React component ?
 4. What is the difference between functional React component and class based React component ?
-5. What is the use cases of class based component ?
-6. What is React life cycle ? (not covered yet) ?
-7. What is state in React ?
+5. When do we need to use class based components instead of functional components
+6. What is the use cases of class based component ?
+7. Which type of component do use most frequently ? functional or class-based component
+8. What is React life cycle ? (not covered yet) ?
+9. What is state in React ? (not covered yet)
 
 ## Exercises: Level 2
 
