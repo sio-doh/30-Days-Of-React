@@ -72,6 +72,7 @@ If you have the above skills you will enjoy doing React. The 30 Days Of React ch
 If you have the skills mentioned above, you will enjoy doing React. The 30 Days Of React challenge contains everything you need to know about react. In every section, it has some exercises and mini-projects, and it is recommended to work on them. This 30 Days Of React challenge will help you learn the latest version of React and the old version, step by step. The topics are broken down into 30 days, where each day contains several topics with easy-to-understand explanations, real-world examples and many hands-on exercises.
 >>>>>>> 0384ba9 ('fixes')
 This challenge is designed for beginners and professionals who want to build a web application using React and JavaScript.
+Once in a while you may need different dummy data to work with React. You can use the following [dummy data generator](https://www.30daysofreact.com/dummy-data) to generate different data.
 
 ### 1. What is React?
 
@@ -146,6 +147,7 @@ const data = <small>Oct 2, 2020</small>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 The above strange looking code seems a JavaScrip but it is not JavaScript and it seems an HTML but not completely an HTML element. It is a mix of JavaScript and and an HTML element. JSX can allow us to use HTML in JavaScript. The HTML element in the above JSX is h1.
 =======
 >>>>>>> 63842ed (minor fixes)
@@ -156,6 +158,9 @@ The strange looking code above looks like a JavaScript, but it is not JavaScript
 =======
 The above strange looking code seems like  JavaScript and it seems like , but it is not JavaScript and it seems like HTML but not completely an HTML element. It is a mix of JavaScript and an HTML elements. JSX can allow us to use HTML in JavaScript. The HTML element in the JSX above is _h1_ and _small_.
 >>>>>>> c735229 (minor fixes)
+=======
+The above strange looking code seems like JavaScript and it seems like , but it is not JavaScript and it seems like HTML but not completely an HTML element. It is a mix of JavaScript and an HTML elements. JSX can allow us to use HTML in JavaScript. The HTML element in the JSX above is _h1_ and _small_.
+>>>>>>> c468243 (day 26 has been added)
 
 #### JSX Element
 
