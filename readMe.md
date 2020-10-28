@@ -30,33 +30,19 @@
 |05|[Props](./05_Day_Props/05_props.md)|
 |06|[List, Map and Keys](../06_Day_Map_List_Keys/06_map_list_keys.md)|
 |07|[Class Components](./07_Day_Class_Components/07_class_components.md)|
-<<<<<<< HEAD
 |08|[States 😞](./08_Day_States/08_states.md)|
 |09|[Conditional Rendering 😞]()|
-=======
 |08|[States](./08_Day_States/08_states.md)|
 |09|[Conditional Rendering](./09_Day_Conditional_Rendering/09_conditional_rendering.md)|
-<<<<<<< HEAD
->>>>>>> fa83c91 (Day_9 has been published)
 |10|[Events 😞]()|
 |11|[Forms 😞]()|
-=======
 |10|[React Project Folder Structure](./10_React_Project_Folder_Structure/10_react_project_folder_structure.md)|
 |11|[Events](./11_Day_Events/11_events.md)|
-<<<<<<< HEAD
-<<<<<<< HEAD
 |12|[Forms 😞]()|
->>>>>>> ba2da20 (Day_10 has been published)
-=======
 |12|[Forms](./12_Day_Forms/11_forms.md)|
->>>>>>> 1e26e7f (Day_12 has been added)
-=======
 |12|[Forms](./12_Day_Forms/12_forms.md)|
-<<<<<<< HEAD
->>>>>>> a538ce7 (Day_12 has been added)
 |13|[Controlled and Uncondrolled Component 😞]()|
 |13|[Component Life Cycles😞]()|
-=======
 |13|[Controlled and Uncontrolled Component](./13_Day_Controlled_Versus_Uncontrolled_Input/13_uncontrolled_input.md)|
 |14|[Component Life Cycles](./14_Day_Component_Life_Cycles/14_component_life_cycles.md)|
 |15|[Third Party Packages](./15_Third_Party_Packages/15_third_party_packages.md)|
@@ -76,13 +62,7 @@
 |29|[Explore](./29_explore/29_explore.md)|
 |30|[Conclusions]()|
 
-
-<<<<<<< HEAD
 CONGRATULATIONS FOR MAKING TO THIS FAR
-
->>>>>>> f49f726 (Day_13 has been published)
-=======
->>>>>>> 6821f7c (day 18 has been added)
 
 🧡🧡🧡 HAPPY CODING 🧡🧡🧡
 <div>
@@ -299,13 +279,10 @@ In this step by step 30 Days React challenge, you will learn React which is one 
 React can do everything that JavaScript can do. React can be used **_to add interactivity to websites, to develop mobile apps, desktop applications, games_**.
 I believe you will learn quite a lot in the next 30 days and your programming and problem solving skills will also be improved significantly.
 
-<<<<<<< HEAD
 I will use converstational English and less jargons to write this challenge. The content will be continousely updated. If you find a typo or grammar mistakes don't suprised because I don't do any proof read before I publish it. I would recommond you to focus on the main message of the challenge instead of the English and some minor mistakes. I really appreciate if you send me pull requests for improvement and remember to pull first from master before you send pull requests. Most of the images I have used in this challenge came from 30DaysOfJavaScript challenge therefore you may need to rename file names and folders 30DaysOfReact.
 If 
 I will use conversational English and less jargons to write this challenge. The content will be continuously updated. If you find a typo or grammar mistakes don't surprised because I don't do any proof read before I publish it. I would recommend you to focus on the main message of the challenge instead of the English and some minor mistakes. I really appreciate if you send me pull requests for improvement and remember to pull first from master before you send pull requests. Most of the images I have used in this challenge came from 30DaysOfJavaScript challenge therefore you may need to rename file names and folders 30DaysOfReact.
-=======
 I will use conversational English and less jargons to write this challenge. The content will be continuously updated. If you find a typo or grammar mistakes don't be surprised because I don't do any proof read before I publish it. I would recommend you to focus on the main message of the challenge instead of the English and some minor mistakes. I really appreciate if you send me pull requests for improvement and remember to pull first from master before you send pull requests. Most of the images I have used in this challenge came from 30DaysOfJavaScript challenge therefore you may need to rename file names and folders 30DaysOfReact.
->>>>>>> c735229 (minor fixes)
 If you are good at arrays, loops, functions, objects, functional programming, destructuring and spreading and class then you will be able to follow the challenge properly. Otherwise, I strongly recommend you to check [30DaysOfJavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript).
 
 Before you dive into this course, you may check the [review](https://t.me/thirtydaysofreact/992) of 30 Days Of React. 
