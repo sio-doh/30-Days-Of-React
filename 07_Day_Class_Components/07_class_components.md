@@ -14,7 +14,6 @@
 
 </div>
 
-
 [<< Day 6](../06_Day_Map_List_Keys/06_map_list_keys.md) | [Day 8 >>](../07_Day_Class_Components/07_class_components.md)
 [<< Day 6](../06_Day_Map_List_Keys/06_map_list_keys.md) | [Day 8 >>](../08_Day_States/08_states.md)
 
@@ -30,7 +29,6 @@
 
 - [Class Components](#class-components)
   - [Accessing props in Class components](#accessing-props-in-class-components)
-
 - [Exercises](#exercises)
   - [Exercises: Level 1](#exercises-level-1)
   - [Exercises: Level 2](#exercises-level-2)

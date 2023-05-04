@@ -2,10 +2,6 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> c8014c3 (day_7)
 import asabenehImage from './images/asabeneh.jpg'
 
 // Fuction to show month date year
@@ -39,11 +35,6 @@ const buttonStyles = {
   fontSize: 18,
   color: 'white',
 }
-<<<<<<< HEAD
-=======
->>>>>>> 7aaab6b (day_7)
-=======
->>>>>>> c8014c3 (day_7)
 
 // class based component
 class Header extends React.Component {
@@ -104,10 +95,6 @@ class Main extends React.Component {
           <ul>
             <TechList techs={this.props.techs} />
           </ul>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> c8014c3 (day_7)
           <UserCard user={this.props.user} />
           <Button
             text='Greet People'
@@ -119,11 +106,6 @@ class Main extends React.Component {
             onClick={this.props.handleTime}
             style={buttonStyles}
           />
-<<<<<<< HEAD
-=======
->>>>>>> 7aaab6b (day_7)
-=======
->>>>>>> c8014c3 (day_7)
         </div>
       </main>
     )
@@ -148,10 +130,6 @@ class Footer extends React.Component {
 }
 
 class App extends React.Component {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> c8014c3 (day_7)
   showDate = (time) => {
     const months = [
       'January',
@@ -179,11 +157,6 @@ class App extends React.Component {
   greetPeople = () => {
     alert('Welcome to 30 Days Of React Challenge, 2020')
   }
-<<<<<<< HEAD
-=======
->>>>>>> 7aaab6b (day_7)
-=======
->>>>>>> c8014c3 (day_7)
   render() {
     const data = {
       welcome: 'Welcome to 30 Days Of React',
@@ -196,9 +169,6 @@ class App extends React.Component {
       date: 'Oct 7, 2020',
     }
     const techs = ['HTML', 'CSS', 'JavaScript']
-
-<<<<<<< HEAD
-<<<<<<< HEAD
     // copying the author from data object to user variable using spread operator
     const user = { ...data.author, image: asabenehImage }
 
@@ -212,13 +182,10 @@ class App extends React.Component {
           greetPeople={this.greetPeople}
         />
 
-=======
     return (
       <div className='app'>
         <Header data={data} />
         <Main techs={techs} />
->>>>>>> 7aaab6b (day_7)
-=======
     // copying the author from data object to user variable using spread operator
     const user = { ...data.author, image: asabenehImage }
 
@@ -231,8 +198,6 @@ class App extends React.Component {
           handleTime={this.handleTime}
           greetPeople={this.greetPeople}
         />
-
->>>>>>> c8014c3 (day_7)
         <Footer date={new Date()} />
       </div>
     )
@@ -241,11 +206,3 @@ class App extends React.Component {
 
 const rootElement = document.getElementById('root')
 ReactDOM.render(<App />, rootElement)
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> 7aaab6b (day_7)
-=======
-
->>>>>>> c8014c3 (day_7)

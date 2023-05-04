@@ -16,6 +16,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a014124 (ns)
 
@@ -34,6 +35,10 @@
 >>>>>>> 2c4d226 (Day_5)
 =======
 >>>>>>> 7aaab6b (day_7)
+=======
+
+[<< Day 4](../04_Day_Component/04_components.md) | [Day 6 >>](../06_Day_Map_List_Keys/06_map_list_keys.md)
+>>>>>>> upstream/master
 
 ![30 Days of React banner](../images/30_days_of_react_banner_day_5.jpg)
 
@@ -54,6 +59,7 @@
 - [Exercises: Components and Props](#exercises-components-and-props)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - [Exercises: Level 1](#exercises-level-1)
   - [Exercises: Level 2](#exercises-level-2)
 <<<<<<< HEAD
@@ -66,6 +72,11 @@
 =======
   - [Exercises: Level 3](#exercises-level-3)
 >>>>>>> 52fa244 (polishing)
+=======
+  - [Exercises: Level 1](#exercises-level-1)
+  - [Exercises: Level 2](#exercises-level-2)
+  - [Exercises: Level 3](#exercises-level-3)
+>>>>>>> upstream/master
 
 # Props
 
@@ -73,12 +84,16 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/master
 In the previous day, we saw how to inject different data types to React component JSX. Now, let us see how we use it in component and also how to pass different data as props.
 
 ## What is props?
 
 Props is a special keyword in React that stands for properties and is being used to pass data from one component to another and mostly from parent component to child component. We can say props is a data carrier or a means to transport data.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 I hope you are familiar with JavaScript function. Most of the time, functions with parameters are smart and they can take dynamic data likewise props is a way we pass data or parameter to a component. Let's see the difference between a function and a component.
 =======
@@ -100,6 +115,9 @@ I hope you are familiar with JavaScript function. Most of the time, functions wi
 =======
 I hope you are familiar with the JavaScript function. Most of the time, functions with parameters are smart and they can take dynamic data likewise props is a way we pass data or parameter to a component. Let's see the difference between a function and a component.
 >>>>>>> 5cfcdee (Addressing some minor typos)
+=======
+I hope you are familiar with the JavaScript function. Most of the time, functions with parameters are smart and they can take dynamic data likewise props is a way we pass data or parameter to a component. Let's see the difference between a function and a component.
+>>>>>>> upstream/master
 
 ```js
 // function syntax
@@ -128,6 +146,7 @@ const User = (props) => {
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 // calling or instantiating a component, this component has three properties and we call them props:firstName, lastName, country
 =======
 // calling or instantiating a component
@@ -135,6 +154,9 @@ const User = (props) => {
 =======
 // calling or instantiating a component, this component has three properties and we call them props:firstName, lastName, country
 >>>>>>> 37d04cb (cleaning day_5)
+=======
+// calling or instantiating a component, this component has three properties and we call them props:firstName, lastName, country
+>>>>>>> upstream/master
 <User firstName = 'Asabeneh', lastName='Yetayeh' country = 'Finland' />
 ```
 
@@ -170,6 +192,7 @@ const Header = () => (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Instead of injecting data we can also pass the data as a props. React props is similar to parameters in function.
 =======
 Instead of injecting data we can also pass the data as a prop. React props are similar to parameters in functions.
@@ -177,11 +200,15 @@ Instead of injecting data we can also pass the data as a prop. React props are s
 =======
 Instead of injecting data we can also pass the data as props. React props are similar to parameters in functions.
 >>>>>>> 949e393 (reverting some changes to make the use of word props consistent)
+=======
+Instead of injecting data we can also pass the data as props. React props are similar to parameters in functions.
+>>>>>>> upstream/master
 
 ## Props object
 
 React props is an object which you get instantly when you create a React component. Before we pass properties to the component, let's check what do we get in the props object.
 
+<<<<<<< HEAD
 =======
 Instead of injecting data we can also pass the data as a props. React props is similar to parameters in function. React props is an object which you get instantly when you create a component. Before that let's check what do we get in the props object.
 
@@ -196,6 +223,8 @@ Instead of injecting data we can also pass the data as a props. React props is s
 React props is an object which you get instantly when you create a React component. Before we pass properties to the component, let's check what do we get in the props object.
 
 >>>>>>> 37d04cb (cleaning day_5)
+=======
+>>>>>>> upstream/master
 ```js
 import React from 'react'
 import ReactDOM from 'react-dom'
@@ -219,12 +248,16 @@ const Header = (props) => {
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> a95ca32 (Day_5)
 =======
 
 >>>>>>> 37d04cb (cleaning day_5)
+=======
+
+>>>>>>> upstream/master
 // The App, or the parent or the container component
 // Functional Component
 const App = () => {
@@ -242,6 +275,7 @@ ReactDOM.render(<App />, rootElement)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 In the above console.log(props), you would get an empty object({}). That means if you do not pass any attributes or properties when you instantiate the component, the props will be empty otherwise it will be populated with the data you passed as attributes and the proper name of these attributes are props.
 
 Let's start with a simple example. In the example below, the welcome string has been passed as props in the Header components.
@@ -255,6 +289,11 @@ In the above console.log(props), you would get an empty object({}). That means i
 
 Let's start with a simple example. In the example below, the welcome string has been passed as props in the Header components.
 >>>>>>> 37d04cb (cleaning day_5)
+=======
+In the above console.log(props), you would get an empty object({}). That means if you do not pass any attributes or properties when you instantiate the component, the props will be empty otherwise it will be populated with the data you passed as attributes and the proper name of these attributes are props.
+
+Let's start with a simple example. In the example below, the welcome string has been passed as props in the Header components.
+>>>>>>> upstream/master
 
 ```js
 import React from 'react'
@@ -285,13 +324,17 @@ const App = () => {
 const rootElement = document.getElementById('root')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6f350ce (Day_6)
+=======
+>>>>>>> upstream/master
 
 ReactDOM.render(<App />, rootElement)
 ```
 
 Now, when you do console.log(props) you should get the following object, that means the welcome property we passed to the Header component can be found inside the props object.
+<<<<<<< HEAD
 =======
 // we render the JSX element using the ReactDOM package
 ReactDOM.render(<App />, rootElement)
@@ -303,6 +346,8 @@ Now, when you do console.log(props) you should get the following object, that me
 =======
 Now, when you do console.log(props) you should get the following object, that means the welcome property we passed to the Header component can be found inside the props object.
 >>>>>>> 37d04cb (cleaning day_5)
+=======
+>>>>>>> upstream/master
 
 ```js
 {
@@ -310,6 +355,7 @@ Now, when you do console.log(props) you should get the following object, that me
 }
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -325,6 +371,9 @@ As you can see in the above code, we passed only a single props to Header compon
 =======
 As you can see in the above code, we passed only single props to Header component, the welcome props. A component can have one or many props. Props could be different data types. It could be a string, number, boolean, array, object or a function. We will cover different kind of props in the next sections.
 >>>>>>> 949e393 (reverting some changes to make the use of word props consistent)
+=======
+As you can see in the above code, we passed only single props to Header component, the welcome props. A component can have one or many props. Props could be different data types. It could be a string, number, boolean, array, object or a function. We will cover different kind of props in the next sections.
+>>>>>>> upstream/master
 
 ### Different data type props
 
@@ -372,11 +421,14 @@ const App = () => (
 const rootElement = document.getElementById('root')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // we render the JSX element using the ReactDOM package
 >>>>>>> a95ca32 (Day_5)
 =======
 >>>>>>> 6f350ce (Day_6)
+=======
+>>>>>>> upstream/master
 ReactDOM.render(<App />, rootElement)
 ```
 
@@ -397,6 +449,7 @@ Since you are a JavaScript ninja by now, you know what do do with this object.
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 As you can see from the above example, the value of the props are written statically. However, if we want to apply some logic it is hard to implement with statically written data, so it will be better to use a variable as props. Let's see the following example:
 =======
 As you can see from the above example, the value of the props are written statically. However, if we want to apply some logic it is hard to implement with statically written data, so it better to use a variable as props. Let's see the following example:
@@ -404,6 +457,9 @@ As you can see from the above example, the value of the props are written static
 =======
 As you can see from the above example, the value of the props are written statically. However, if we want to apply some logic it is hard to implement with statically written data, so it will be better to use a variable as props. Let's see the following example:
 >>>>>>> 37d04cb (cleaning day_5)
+=======
+As you can see from the above example, the value of the props are written statically. However, if we want to apply some logic it is hard to implement with statically written data, so it will be better to use a variable as props. Let's see the following example:
+>>>>>>> upstream/master
 
 ```js
 import React from 'react'
@@ -450,11 +506,14 @@ const App = () => {
 const rootElement = document.getElementById('root')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // we render the JSX element using the ReactDOM package
 >>>>>>> a95ca32 (Day_5)
 =======
 >>>>>>> 6f350ce (Day_6)
+=======
+>>>>>>> upstream/master
 ReactDOM.render(<App />, rootElement)
 ```
 
@@ -490,11 +549,14 @@ const App = () => {
 const rootElement = document.getElementById('root')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // we render the JSX element using the ReactDOM package
 >>>>>>> a95ca32 (Day_5)
 =======
 >>>>>>> 6f350ce (Day_6)
+=======
+>>>>>>> upstream/master
 ReactDOM.render(<App />, rootElement)
 ```
 
@@ -519,6 +581,7 @@ const App = () => {
   let birthYear = 2015
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   const age = currentYear - birthYear // 15 years
 =======
   const age = currentYear - birthYear // 200 years
@@ -526,6 +589,9 @@ const App = () => {
 =======
   const age = currentYear - birthYear // 15 years
 >>>>>>> 37d04cb (cleaning day_5)
+=======
+  const age = currentYear - birthYear // 15 years
+>>>>>>> upstream/master
 
   let status = age >= 18
 
@@ -538,11 +604,14 @@ const App = () => {
 const rootElement = document.getElementById('root')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // we render the JSX element using the ReactDOM package
 >>>>>>> a95ca32 (Day_5)
 =======
 >>>>>>> 6f350ce (Day_6)
+=======
+>>>>>>> upstream/master
 ReactDOM.render(<App />, rootElement)
 ```
 
@@ -690,6 +759,7 @@ const App = () => {
     },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     date: new Date(), // date needs to be formatted to a human readable format
 =======
     date: new Date(),
@@ -697,6 +767,9 @@ const App = () => {
 =======
     date: new Date(), // date needs to be formatted to a human readable format
 >>>>>>> 37d04cb (cleaning day_5)
+=======
+    date: new Date(), // date needs to be formatted to a human readable format
+>>>>>>> upstream/master
   }
 
   return (
@@ -706,6 +779,7 @@ const App = () => {
   )
 }
 const rootElement = document.getElementById('root')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -733,6 +807,12 @@ When we use an object as "props" we usually destructure the data to access the v
 =======
 When we use an object as props we usually destructure the data to access the values. Destructuring makes our code easy to read. We will soon see the destructuring of props but before that let's see function as props for a React component.
 >>>>>>> 949e393 (reverting some changes to make the use of word props consistent)
+=======
+ReactDOM.render(<App />, rootElement)
+```
+
+When we use an object as props we usually destructure the data to access the values. Destructuring makes our code easy to read. We will soon see the destructuring of props but before that let's see function as props for a React component.
+>>>>>>> upstream/master
 
 ### Function prop types
 
@@ -744,6 +824,9 @@ import ReactDOM from 'react-dom'
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/master
 // A button component
 
 const Button = (props) => <button onClick={props.onClick}>{props.text}</button>
@@ -795,6 +878,7 @@ Now, lets implement different functions as props
 ```js
 import React from 'react'
 import ReactDOM from 'react-dom'
+<<<<<<< HEAD
 =======
 // Function to display time in Mon date, year format eg Oct 4, 2020
 const showDate = (time) => {
@@ -869,6 +953,8 @@ Now, lets implement different functions as a props
 import React from 'react'
 import ReactDOM from 'react-dom'
 >>>>>>> 37d04cb (cleaning day_5)
+=======
+>>>>>>> upstream/master
 
 // A button component
 
@@ -886,16 +972,21 @@ const App = () => {
       <Button text='Greet People' onClick={greetPeople} />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <Button text='Show Time' onClick={() => alert(new Date())} />
 =======
 >>>>>>> a95ca32 (Day_5)
 =======
       <Button text='Show Time' onClick={() => alert(new Date())} />
 >>>>>>> 37d04cb (cleaning day_5)
+=======
+      <Button text='Show Time' onClick={() => alert(new Date())} />
+>>>>>>> upstream/master
     </div>
   )
 }
 const rootElement = document.getElementById('root')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -903,6 +994,8 @@ const rootElement = document.getElementById('root')
 >>>>>>> a95ca32 (Day_5)
 =======
 >>>>>>> 6f350ce (Day_6)
+=======
+>>>>>>> upstream/master
 ReactDOM.render(<App />, rootElement)
 ```
 
@@ -951,6 +1044,9 @@ const App = () => {
   }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/master
   const greetPeople = () => {
     alert('Welcome to 30 Days Of React Challenge, 2020')
   }
@@ -958,6 +1054,7 @@ const App = () => {
     <div className='app'>
       <Button text='show time' onClick={handleTime} />
       <Button text='Greet People' onClick={greetPeople} />
+<<<<<<< HEAD
 =======
 
   return (
@@ -973,10 +1070,13 @@ const App = () => {
       <Button text='show time' onClick={handleTime} />
       <Button text='Greet People' onClick={greetPeople} />
 >>>>>>> 37d04cb (cleaning day_5)
+=======
+>>>>>>> upstream/master
     </div>
   )
 }
 const rootElement = document.getElementById('root')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -984,6 +1084,8 @@ const rootElement = document.getElementById('root')
 >>>>>>> a95ca32 (Day_5)
 =======
 >>>>>>> 6f350ce (Day_6)
+=======
+>>>>>>> upstream/master
 ReactDOM.render(<App />, rootElement)
 ```
 
@@ -1139,11 +1241,14 @@ const App = () => {
 const rootElement = document.getElementById('root')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // we render the JSX element using the ReactDOM package
 >>>>>>> a95ca32 (Day_5)
 =======
 >>>>>>> 6f350ce (Day_6)
+=======
+>>>>>>> upstream/master
 ReactDOM.render(<App />, rootElement)
 ```
 
@@ -1222,15 +1327,19 @@ const App = () => {
 const rootElement = document.getElementById('root')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // we render the JSX element using the ReactDOM package
 >>>>>>> a95ca32 (Day_5)
 =======
 >>>>>>> 6f350ce (Day_6)
+=======
+>>>>>>> upstream/master
 ReactDOM.render(<App />, rootElement)
 ```
 
 Now, let's destructure all the components we had and assemble them together. We pass props from one component to another typically from parent to a child component.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1244,6 +1353,9 @@ For instance in the Main component techs, user, greetPeople and handleTime  prop
 =======
 For instance in the Main component techs, user, greetPeople and handleTime props have been passed from the parent component Main to child components TechList and UserCard. Below, you will get all the codes destructured and cleaned.
 >>>>>>> 6eaa930 (day_5 has been cleaned)
+=======
+For instance in the Main component techs, user, greetPeople and handleTime props have been passed from the parent component Main to child components TechList and UserCard. Below, you will get all the codes destructured and cleaned.
+>>>>>>> upstream/master
 
 ```js
 import React from 'react'
@@ -1318,8 +1430,11 @@ const UserCard = ({ user: { firstName, lastName, image } }) => (
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 02516c4 (day_5 has been cleaned)
+=======
+>>>>>>> upstream/master
 // A button component
 
 const Button = ({ text, onClick, style }) => (
@@ -1330,12 +1445,16 @@ const Button = ({ text, onClick, style }) => (
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 // CSS styles in JavaScript Object
 =======
 >>>>>>> 02516c4 (day_5 has been cleaned)
 =======
 // CSS styles in JavaScript Object
 >>>>>>> 6f350ce (Day_6)
+=======
+// CSS styles in JavaScript Object
+>>>>>>> upstream/master
 const buttonStyles = {
   backgroundColor: '#61dbfb',
   padding: 10,
@@ -1349,6 +1468,7 @@ const buttonStyles = {
 
 // Main Component
 const Main = ({ user, techs, greetPeople, handleTime }) => (
+<<<<<<< HEAD
 =======
 // Main Component
 <<<<<<< HEAD
@@ -1357,6 +1477,8 @@ const Main = ({ user, techs }) => (
 =======
 const Main = ({ user, techs, greetPeople, handleTime }) => (
 >>>>>>> 37d04cb (cleaning day_5)
+=======
+>>>>>>> upstream/master
   <main>
     <div className='main-wrapper'>
       <p>Prerequisite to get started react.js:</p>
@@ -1364,6 +1486,7 @@ const Main = ({ user, techs, greetPeople, handleTime }) => (
         <TechList techs={techs} />
       </ul>
       <UserCard user={user} />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1379,6 +1502,10 @@ const Main = ({ user, techs, greetPeople, handleTime }) => (
       <Button text='Greet People' onClick={greetPeople} style={buttonStyles} />
       <Button text='Show Time' onClick={handleTime} style={buttonStyles} />
 >>>>>>> 02516c4 (day_5 has been cleaned)
+=======
+      <Button text='Greet People' onClick={greetPeople} style={buttonStyles} />
+      <Button text='Show Time' onClick={handleTime} style={buttonStyles} />
+>>>>>>> upstream/master
     </div>
   </main>
 )
@@ -1389,6 +1516,7 @@ const Footer = ({ copyRight }) => (
     <div className='footer-wrapper'>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <p>Copyright {copyRight.getFullYear()}</p>
 =======
       <p>{copyRight.getFullYear()}</p>
@@ -1396,6 +1524,9 @@ const Footer = ({ copyRight }) => (
 =======
       <p>Copyright {copyRight.getFullYear()}</p>
 >>>>>>> 6eaa930 (day_5 has been cleaned)
+=======
+      <p>Copyright {copyRight.getFullYear()}</p>
+>>>>>>> upstream/master
     </div>
   </footer>
 )
@@ -1413,6 +1544,7 @@ const App = () => {
     },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     date: new Date(), // date needs to be formatted to a human readable format
 =======
     date: new Date(),
@@ -1420,6 +1552,9 @@ const App = () => {
 =======
     date: new Date(), // date needs to be formatted to a human readable format
 >>>>>>> 02516c4 (day_5 has been cleaned)
+=======
+    date: new Date(), // date needs to be formatted to a human readable format
+>>>>>>> upstream/master
   }
   const date = new Date()
   const techs = ['HTML', 'CSS', 'JavaScript']
@@ -1428,8 +1563,11 @@ const App = () => {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 37d04cb (cleaning day_5)
+=======
+>>>>>>> upstream/master
   const handleTime = () => {
     alert(showDate(new Date()))
   }
@@ -1438,6 +1576,9 @@ const App = () => {
   }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/master
   return (
     <div className='app'>
       <Header data={data} />
@@ -1447,6 +1588,7 @@ const App = () => {
         handleTime={handleTime}
         greetPeople={greetPeople}
       />
+<<<<<<< HEAD
 =======
   return (
     <div className='app'>
@@ -1464,11 +1606,14 @@ const App = () => {
         greetPeople={greetPeople}
       />
 >>>>>>> 37d04cb (cleaning day_5)
+=======
+>>>>>>> upstream/master
       <Footer copyRight={date} />
     </div>
   )
 }
 const rootElement = document.getElementById('root')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1570,6 +1715,11 @@ ReactDOM.render(<App />, rootElement)
 
 =======
 >>>>>>> 02516c4 (day_5 has been cleaned)
+=======
+ReactDOM.render(<App />, rootElement)
+```
+
+>>>>>>> upstream/master
 ## propTypes
 
 The propTypes package helps us to assign the data types of the props we passed to a component.
@@ -1584,8 +1734,11 @@ We will cover propTypes in detail in other sections.
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3929034 (Day_7 has been published)
+=======
+>>>>>>> upstream/master
 ## Exercises: Level 1
 
 1. What is props in a React component ?
@@ -1599,12 +1752,15 @@ We will cover propTypes in detail in other sections.
 1. Create a functional component and display the following images
    ![Front end](../images/frontend_technologies.png)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 1.Create functional components and display the following images
 ![Front end](../images/frontend_technologies.png)
 >>>>>>> a95ca32 (Day_5)
 =======
 >>>>>>> 3929034 (Day_7 has been published)
+=======
+>>>>>>> upstream/master
 
 2. Use functional component to create the following design
 
@@ -1623,6 +1779,7 @@ We will cover propTypes in detail in other sections.
 🎉 CONGRATULATIONS ! 🎉
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 [<< Day 4](../04_Day_Component/04_components.md) | [Day 6 >>](../06_Day_Map_List_Keys/06_map_list_keys.md)
 <<<<<<< HEAD
@@ -1639,3 +1796,7 @@ We will cover propTypes in detail in other sections.
 >>>>>>> f6a8709 (minor fixes)
 =======
 >>>>>>> 7aaab6b (day_7)
+=======
+
+[<< Day 4](../04_Day_Component/04_components.md) | [Day 6 >>](../06_Day_Map_List_Keys/06_map_list_keys.md)
+>>>>>>> upstream/master

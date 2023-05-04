@@ -22,7 +22,6 @@
 
 | # Day |                                                           Topics                                                            |
 | ----- | :-------------------------------------------------------------------------------------------------------------------------: |
-<<<<<<< HEAD
 |00|[Introduction](#introduction)<br> [How to Use Repo](#how-to-use-repo)<br> [Requirements](#requirements)<br> [Setup](#setup)|
 |01|[JavaScript Refresher](./01_Day_JavaScript_Refresher/01_javascript_refresher.md)|
 |02|[Getting Started React](./02_Day_Introduction_to_React/02_introduction_to_react.md)|
@@ -64,7 +63,6 @@
 |30|[Conclusions](./30_conclusions/30_conclusions.md)|
 
 CONGRATULATIONS FOR MAKING TO THIS FAR
-=======
 | 00    | [Introduction](#introduction)<br> [How to Use Repo](#how-to-use-repo)<br> [Requirements](#requirements)<br> [Setup](#setup) |
 | 01    |                      [JavaScript Refresher](./01_Day_JavaScript_Refresher/01_javascript_refresher.md)                       |
 | 02    |                     [Getting Started React](./02_Day_Introduction_to_React/02_introduction_to_react.md)                     |
@@ -96,7 +94,6 @@ CONGRATULATIONS FOR MAKING TO THIS FAR
 | 28    |                                            [project](./28_project/28_project.md)                                            |
 | 29    |                                            [Explore](./29_explore/29_explore.md)                                            |
 | 30    |                                      [Conclusions](./30_conclusions/30_conclusions.md)                                      |
->>>>>>> cfd4dc4 (paypal link has been added)
 
 🧡🧡🧡 HAPPY CODING 🧡🧡🧡
 

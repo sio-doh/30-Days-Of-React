@@ -8,19 +8,15 @@
     <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
 
-
 <sub>Author:
 <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
 <small> October, 2020</small>
 </sub>
-<<<<<<< HEAD
   <sub>
     Author: <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
     <small> October, 2020</small>
   </sub>
 </div>
-=======
->>>>>>> f6a8709 (minor fixes)
 
 </div>
 
@@ -32,6 +28,9 @@
 
   - [0. Adding JavaScript to a Web Page](#adding-javascript-to-a-web-page)
 
+  - [0. Adding JavaScript to a Web Page](#0-adding-javascript-to-a-web-page)
+
+- [JavaScript Refresher](#javascript-refresher)
   - [0. Adding JavaScript to a Web Page](#0-adding-javascript-to-a-web-page)
     - [Inline Script](#inline-script)
     - [Internal Script](#internal-script)
@@ -326,6 +325,7 @@ _Your main.js file should be below all other scripts_. It is very important to r
 ![Multiple Script](../images/multiple_script.png)
 ![Multiple Script](./images/multiple_script.png)
 ![Multiple Script](../images/multiple_script.png)
+
 ### 1. Variables
 
 We use _var_, _let_ and _const_ to declare a variable. The _var_ is functions scope, however _let_ and _const_ are block scope. In this challenge we use ES6 and above features of JavaScript. Avoid using _var_.
@@ -781,6 +781,7 @@ console.log(names.join('')) //AsabenehMathiasEliasBrook
 console.log(names.join(' ')) //Asabeneh Mathias Elias Brook
 console.log(names.join(', ')) //Asabeneh, Mathias, Elias, Brook
 console.log(names.join(' # ')) //Asabeneh ## Mathias ## Elias ## Brook
+console.log(names.join(' # ')) //Asabeneh # Mathias # Elias # Brook
 
 const webTechs = [
   'HTML',
@@ -794,6 +795,7 @@ const webTechs = [
 
 console.log(webTechs.join()) // "HTML,CSS,JavaScript,React,Redux,Node,MongoDB"
 console.log(webTechs.join(' # ')) // "HTML ## CSS ## JavaScript ## React ## Redux ## Node ## MongoDB"
+console.log(webTechs.join(' # ')) // "HTML # CSS # JavaScript # React # Redux # Node # MongoDB"
 ```
 
 ##### Slice array elements
@@ -2796,10 +2798,11 @@ const sumArray = arr => {
     sum += element
   }
   arr.forEach(callback)
-<<<<<<< HEAD
   numbers.forEach(callback)
-=======
->>>>>>> f6a8709 (minor fixes)
+  const callback = function(element) {
+    sum += element
+  }
+  arr.forEach(callback)
   return sum
 
 }
@@ -2808,10 +2811,7 @@ console.log(sumArray(numbers))
 
 ```sh
 10
-<<<<<<< HEAD
 15
-=======
->>>>>>> f6a8709 (minor fixes)
 ```
 
 The above example can be simplified as follows:
@@ -2822,10 +2822,7 @@ const numbers = [1, 2, 3, 4]
 const sumArray = arr => {
   let sum = 0
   arr.forEach(function(element) {
-<<<<<<< HEAD
   numbers.forEach(function(element) {
-=======
->>>>>>> f6a8709 (minor fixes)
     sum += element
   })
   return sum
@@ -2836,10 +2833,7 @@ console.log(sumArray(numbers))
 
 ```sh
 10
-<<<<<<< HEAD
 15
-=======
->>>>>>> f6a8709 (minor fixes)
 ```
 
 #### setting time
@@ -2856,6 +2850,7 @@ In JavaScript, we use setInterval higher order function to do some activity cont
 ```js
 // syntax
 function callBack() {
+function callback() {
   // code goes here
 }
 setInterval(callback, duration)
@@ -4126,10 +4121,7 @@ class Person {
     return fullName
   }
   get getScore() {
-<<<<<<< HEAD
   get getscore() {
-=======
->>>>>>> c735229 (minor fixes)
     return this.score
   }
   get getSkills() {

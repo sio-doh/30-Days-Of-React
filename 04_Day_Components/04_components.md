@@ -13,12 +13,10 @@
 </sub>
 
 </div>
-<<<<<<< HEAD
+
 
 [<< Day 3](../30-Days-Of-React/03_Day_Setting_Up/03_setting_up.md) | [Day 5 >>](./05_Day_Props/05_props.md)
 </div>
-=======
->>>>>>> f206d9e (some changes)
 
 [<< Day 3](../30-Days-Of-React/03_Day_Setting_Up/03_day_setting_up.md) | [Day 5 >>]()
 
@@ -36,25 +34,16 @@
     - [Injecting data to JSX in React Component](#injecting-data-to-jsx-in-react-component)
     - [Further on Functional components](#further-on-functional-components)
 - [Exercises: Components](#exercises-components)
-<<<<<<< HEAD
-<<<<<<< HEAD:04_Day_Component/04_components.md
-<<<<<<< HEAD
-<<<<<<< HEAD
   - [Exercises: Level 1](#exercises-level-1)
   - [Exercises: Level 2](#exercises-level-2)
-=======
->>>>>>> 97dc3fc (Day_4)
-=======
   - [Exercises: Level 1](#exercises-level-1)
   - [Exercises: Level 2](#exercises-level-2)
->>>>>>> 3929034 (Day_7 has been published)
-=======
-=======
   - [Exercises: Level 1](#exercises-level-1)
->>>>>>> 0b1cada (minor changes)
   - [Exercises: Level 2](#exercises-level-2)
   - [Exercises: Level 3](#exercises-level-3)
->>>>>>> e25416d (polishing):04_Day_Components/04_components.md
+  - [Exercises: Level 1](#exercises-level-1)
+  - [Exercises: Level 2](#exercises-level-2)
+  - [Exercises: Level 3](#exercises-level-3)
 
 # Components
 
@@ -88,20 +77,20 @@ const getUserInfo = (firstName, lastName, country, title, skills) => {
   )} `
 }
 // When we call this function we need parameters
-<<<<<<< HEAD
-<<<<<<< HEAD
 const skills = ['HTML', 'CSS', 'JS', 'React']
 console.log(
   getUserInfo('Asabeneh', 'Yetayeh', 'Finland', 'FullStack Developer', skills)
-=======
+
 console.log(
   getUserInfo('Asabeneh', 'Yetayeh', 'Finland', 'FullStack Developer')
->>>>>>> 97dc3fc (Day_4)
-=======
+
 const skills = ['HTML', 'CSS', 'JS', 'React']
 console.log(
   getUserInfo('Asabeneh', 'Yetayeh', 'Finland', 'FullStack Developer', skills)
->>>>>>> e730c07 (minor fixes)
+
+const skills = ['HTML', 'CSS', 'JS', 'React']
+console.log(
+  getUserInfo('Asabeneh', 'Yetayeh', 'Finland', 'FullStack Developer', skills)
 )
 ```
 
@@ -126,15 +115,10 @@ class Parent {
   }
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 const p1 = new Parent('Asabeneh', 'Yetayeh', 'Finland', 'FullStack Developer')
-=======
 const p1 = Parent('Asabeneh', 'Yetayeh', 'Finland', 'FullStack Developer')
->>>>>>> 97dc3fc (Day_4)
-=======
 const p1 = new Parent('Asabeneh', 'Yetayeh', 'Finland', 'FullStack Developer')
->>>>>>> 02516c4 (day_5 has been cleaned)
+const p1 = new Parent('Asabeneh', 'Yetayeh', 'Finland', 'FullStack Developer')
 
 class Child extends Parent {
   constructor(firstName, lastName, country, title, skills) {
@@ -151,30 +135,15 @@ class Child extends Parent {
   }
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 const skills = ['HTML', 'CSS', 'JS', 'React']
 
-=======
->>>>>>> 97dc3fc (Day_4)
-=======
-const skills = ['HTML', 'CSS', 'JS', 'React']
-
->>>>>>> 02516c4 (day_5 has been cleaned)
 const child = new Child(
   'Asabeneh',
   'Yetayeh',
   'Finland',
   'FullStack Developer',
-<<<<<<< HEAD
-<<<<<<< HEAD
   skills
-=======
   ['HTML', 'CSS', 'JS', 'React']
->>>>>>> 97dc3fc (Day_4)
-=======
-  skills
->>>>>>> 02516c4 (day_5 has been cleaned)
 )
 ```
 
@@ -344,15 +313,8 @@ const App = () => (
 )
 
 const rootElement = document.getElementById('root')
-<<<<<<< HEAD
-<<<<<<< HEAD
 // we render the App component using the ReactDOM package
-=======
 // we render the JSX element using the ReactDOM package
->>>>>>> 97dc3fc (Day_4)
-=======
-// we render the App component using the ReactDOM package
->>>>>>> 6f350ce (Day_6)
 ReactDOM.render(<App />, rootElement)
 ```
 
@@ -392,15 +354,13 @@ const header = () => {
   )
 }
 const rootElement = document.getElementById('root')
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 // we render the App component using the ReactDOM package
-=======
 // we render the JSX element using the ReactDOM package
->>>>>>> 97dc3fc (Day_4)
-=======
+
 // we render the App component using the ReactDOM package
->>>>>>> 6f350ce (Day_6)
+
+// we render the App component using the ReactDOM package
 ReactDOM.render(<Header />, rootElement)
 ```
 
@@ -508,15 +468,13 @@ const app = () => (
   </div>
 )
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 // we render the App component using the ReactDOM package
-=======
+
 // we render the JSX element using the ReactDOM package
->>>>>>> 97dc3fc (Day_4)
-=======
+
 // we render the App component using the ReactDOM package
->>>>>>> 6f350ce (Day_6)
+
+// we render the App component using the ReactDOM package
 ReactDOM.render(<App />, rootElement)
 ```
 
@@ -558,36 +516,19 @@ const hexaColor = () => {
   return '#' + color
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 const HexaColor = () => <div>{hexaColor()}</div>
 
 const rootElement = document.getElementById('root')
 // we render the App component using the ReactDOM package
-<<<<<<< HEAD
-=======
-const HexaColor = () => <div>{hexaColor()}</dv>
-=======
 const HexaColor = () => <div>{hexaColor()}</div>
->>>>>>> f81e2f7 (cleaning)
 
 const rootElement = document.getElementById('root')
 // we render the JSX element using the ReactDOM package
->>>>>>> 97dc3fc (Day_4)
-=======
->>>>>>> 6f350ce (Day_6)
+
 ReactDOM.render(<HexaColor />, rootElement)
 ```
 
 # Exercises: Components
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD:04_Day_Component/04_components.md
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 3929034 (Day_7 has been published)
 ## Exercises: Level 1
 
 1. What is a React Component ?
@@ -598,7 +539,6 @@ ReactDOM.render(<HexaColor />, rootElement)
 6. Make a reusable Button component
 7. Make a reusable InputField component ?
 8. Make a reusable alert box component with one div parent element and one p child element of the div(warning alert box, success alert box)
-=======
 1. What is a React Component?
 2. How do you make a React functional component?
 3. What is the difference between a pure JavaScript function and a functional component?
@@ -607,14 +547,14 @@ ReactDOM.render(<HexaColor />, rootElement)
 6. Make a reusable Button component.
 7. Make a reusable InputField component.
 8. Make a reusable alert box component with one div parent element and one p child element of the div(warning alert box, success alert box).
->>>>>>> e25416d (polishing):04_Day_Components/04_components.md
-=======
+
 1. What is the difference between a regular function and an arrow function? 
-=======
 ## Exercises: Level 1
 
 1. What is the difference between a regular function and an arrow function?
->>>>>>> 0b1cada (minor changes)
+## Exercises: Level 1
+
+1. What is the difference between a regular function and an arrow function?
 2. What is a React Component?
 3. How do you make a React functional component?
 4. What is the difference between a pure JavaScript function and a functional component?
@@ -623,75 +563,46 @@ ReactDOM.render(<HexaColor />, rootElement)
 7. Make a reusable Button component.
 8. Make a reusable InputField component.
 9. Make a reusable alert box component with one div parent element and one p child element of the div(warning alert box, success alert box).
->>>>>>> 52fa244 (polishing)
 
 ## Exercises: Level 2
 
 1. Create functional components and display the following images
    ![Front end](../images/frontend_technologies.png)
-<<<<<<< HEAD
-=======
+
 1.Create functional components and display the following images
 ![Front end](../images/frontend_technologies.png)
->>>>>>> 97dc3fc (Day_4)
-=======
->>>>>>> 3929034 (Day_7 has been published)
 
 2. Use functional component to create the following design
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 ![News Letter](../images/news_letter_design.png)
 
-<<<<<<< HEAD:04_Day_Component/04_components.md
 4.  Use the given hexadecimal color generator in the example to create these random colors
-=======
 ![News Letter](../images/news_letter_design.png) 4. Use the give hexadecimal color generator in the example to create these random colors
->>>>>>> 97dc3fc (Day_4)
-=======
 ![News Letter](../images/news_letter_design.png)
 
-<<<<<<< HEAD
  4. Use the given hexadecimal color generator in the example to create these random colors
->>>>>>> 9209ecb (Day_4)
-=======
+
 4.  Use the given hexadecimal color generator in the example to create these random colors
->>>>>>> b9e074d (some changes)
-=======
 ## Exercises: Level 3
 
-<<<<<<< HEAD
 2.Use functional component to design the following user card.
->>>>>>> e25416d (polishing):04_Day_Components/04_components.md
-=======
+
 1.  Use the given hexadecimal color generator in the example to create these random colors
->>>>>>> 52fa244 (polishing)
 
+2. Use functional component to create the following design
+
+![News Letter](../images/news_letter_design.png)
+
+## Exercises: Level 3
+
+1.  Use the given hexadecimal color generator in the example to create these random colors
 ![Hexadecimal colors](../images/hexadecimal_color_exercise.png)
-
 2. Use functional component to design the following user card.
-
    ![User Card](../images/user_card_design_jsx.png)
 
 🎉 CONGRATULATIONS ! 🎉
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-<<<<<<< HEAD:04_Day_Component/04_components.md
 [<< Day 3](../30-Days-Of-React/03_Day_Setting_Up/03_setting_up.md) | [Day 5 >>](./05_Day_Props/05_props.md)
-<<<<<<< HEAD
-=======
 [<< Day 3](../30-Days-Of-React/03_Day_Setting_Up/03_day_setting_up.md) | [Day 5 >>]()
->>>>>>> 97dc3fc (Day_4)
-=======
-=======
-
->>>>>>> e730c07 (minor fixes)
 [<< Day 3](../30-Days-Of-React/03_Day_Setting_Up/03_day_setting_up.md) | [Day 5 >>](./05_Day_Props/05_props.md)
->>>>>>> b9e074d (some changes)
-=======
->>>>>>> 6f350ce (Day_6)
-=======
 [<< Day 3](../30-Days-Of-React/03_Day_Setting_Up/03_setting_up.md) | [Day 5 >>](../05_Day_Props/05_props.md)
->>>>>>> e25416d (polishing):04_Day_Components/04_components.md
+[<< Day 3](../30-Days-Of-React/03_Day_Setting_Up/03_setting_up.md) | [Day 5 >>](../05_Day_Props/05_props.md)

@@ -31,6 +31,7 @@
 - [Your first React App](#your-first-react-app)
   - [React Boilerplate](#react-boilerplate)
   - [Style in JSX](#style-in-jsx)
+  - [Styles in JSX](#styles-in-jsx)
   - [Injecting data to JSX elements](#injecting-data-to-jsx-elements)
   - [Importing Media Objects in React](#importing-media-objects-in-react)
 - [Exercises](#exercises)
@@ -45,7 +46,6 @@ In the previous section, we learned about JSX and we access the React and ReactD
 ## Node
 
 Node is a JavaScript run time environment which allows to run JavaScript on the server. Node was created in 2019. Node has played a great role for the growth of JavaScript. React application starts by defaul at localhost 3000. The create-react-app has configured a node server for the application the React Application. We will see create-react-app soon. 
-
 In the previous section, we learned about JSX and we accessed the React and ReactDOM package using CDN. However, in real projects instead of CDN you will use the create-react-app package to generate a React project starter(boilerplate). The initial _create-react-app_ was released on Jul 22, 2016. Before this time, developers used to configure webpack which a JavaScript module bundler, babel and all the necessary packages manually and this used to take half an hour or may be more. Now, create-react-app will take care of everything and you will be in charge of developing the product only instead of spending too much time configuring and setting up projects. Before we start using different tools, let's have a brief introduction for all the tools we are going to use in this challenge. You do not have to understand everything but I will try to give a very short introduction about some of the tools and technologies which we use when we work with React.
 In the previous section, we learned about JSX and we accessed the React and ReactDOM package using CDN. However, in real projects instead of CDN you will use the create-react-app package to generate a React project starter(boilerplate). The initial _create-react-app_ was released on Jul 22, 2016. Before this time, developers used to configure webpack with a JavaScript module bundler, babel and all the necessary packages manually and this used to take half an hour or maybe more. Now, create-react-app will take care of everything and you will be in charge of only developing the product, instead of spending too much time configuring and setting up projects. Before we start using different tools, let's have a brief introduction to all the tools we are going to use in this challenge. You do not have to understand everything, but I will try to give a very short introduction to some of the tools and technologies that we use when we work with React.
 
@@ -132,6 +132,7 @@ We will use Visual Studio Code as a code editor. [Download](https://code.visuals
 We will use Google Chrome
 
 ## Visual Studio Extensions
+
 You may need to install these extensions from Visual Studio Code
 
 - Prettier
